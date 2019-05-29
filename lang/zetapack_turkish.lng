@@ -1,0 +1,616 @@
+; TechTree
+TechTreeName=Dev paket
+; -------------------------------------
+; Types of Armor
+ArmorTypeName_organic=organik
+ArmorTypeName_leather=deri
+ArmorTypeName_wood=kereste
+ArmorTypeName_metal=metal
+ArmorTypeName_stone=taş
+; --------------------
+; Types of Attack
+AttackTypeName_slashing=dilme
+AttackTypeName_piercing=delici
+AttackTypeName_impact=vuruş
+AttackTypeName_energy=enerji
+AttackTypeName_sword=kılıç
+AttackTypeName_arrow=ok
+AttackTypeName_magic=büyü
+AttackTypeName_beat=dayak
+; --------------------
+; Types of Resources
+ResourceTypeName_energy=enerji
+ResourceTypeName_food=besin
+ResourceTypeName_gold=altın
+ResourceTypeName_housing=konut
+ResourceTypeName_stone=taş
+ResourceTypeName_wood=ahşap
+; -----------------------------------------------------------------------------
+; Faction
+FactionName_egypt=mısır
+; -------------------------------------
+; Types of Upgrades for this Faction
+UpgradeTypeName_power_of_ra=ra'nın gücü
+UpgradeTypeName_spear_weapons=mızrak silahlar
+UpgradeTypeName_speedup_priest_production=keşiş üretimini hızlandır
+UpgradeTypeName_summon_ibis=ibis çağır
+UpgradeTypeName_summon_scarab=mayıs böceği çağır
+; -------------------------------------
+UnitTypeName_air_pyramid=piramit
+; --------------------
+LevelName_elite=seçkin
+; --------------------
+CommandName_attack_off=saldırı kapalı
+CommandName_attack_on=saldırı
+; -------------------------------------
+UnitTypeName_anubis_warrior=ölüler tanrısı savaşçısı
+; --------------------
+LevelName_ancient=eski
+; --------------------
+CommandName_stop=Dur
+CommandName_move=taşı
+CommandName_attack=Saldırı
+; -------------------------------------
+UnitTypeName_chicken=piliç
+; -------------------------------------
+UnitTypeName_desert_camp=çöl kampı
+; --------------------
+CommandName_produce_spearthrower=mızrak atıcısı üret
+CommandName_produce_spearman=mızrakçı üret
+CommandName_upgrade_spear_weapons=Mızrak silahlarını yükselt
+; -------------------------------------
+UnitTypeName_farm=çiftlik
+; --------------------
+CommandName_produce_chicken=piliç üret
+; -------------------------------------
+# UnitTypeName_ibis=ibis
+; --------------------
+CommandName_hold_position=tutma pozisyonu
+; -------------------------------------
+UnitTypeName_mummy=mumya
+; -------------------------------------
+UnitTypeName_obelisk=dikilitaş
+; --------------------
+CommandName_produce_scarab=bokböceği üretme
+CommandName_produce_snake=yılan üretme
+# CommandName_produce_ibis=produce ibis
+; -------------------------------------
+UnitTypeName_priest=keşiş
+; --------------------
+CommandName_speedup_priest_production=keşiş üretimini hızlandır
+CommandName_heal=iyileşmek
+CommandName_produce_mummy=mumya üretme
+CommandName_produce_anubis_warrior=ölüler tanrısı savaşçısı üretme
+CommandName_ice_nova=ice nova
+; -------------------------------------
+UnitTypeName_pyramid=piramit
+; --------------------
+CommandName_produce_slave=köle üretme
+; -------------------------------------
+UnitTypeName_scarab=bokböceği
+; --------------------
+LevelName_expert=uzman
+LevelName_master=Usta
+LevelName_legendary=efsanevi
+; --------------------
+CommandName_dung_attack=tezek saldırısı
+; -------------------------------------
+UnitTypeName_slave=köle
+; --------------------
+CommandName_build_basic=temeli yapmak
+CommandName_repair=Onarma
+CommandName_mine=maden
+CommandName_harvest_wood=odun toplama
+; -------------------------------------
+UnitTypeName_snake=yılan
+; --------------------
+CommandName_poison_shot=zehir atışı
+; -------------------------------------
+UnitTypeName_spearman=mızrakçı
+; -------------------------------------
+UnitTypeName_spearthrower=Mızrak atıcısı
+; -------------------------------------
+UnitTypeName_sphinx=sfenks
+; -------------------------------------
+UnitTypeName_temple=tapınak
+; --------------------
+CommandName_produce_priest=keşiş üretme
+CommandName_research_scarab=mayıs böceği araştır
+# CommandName_research_ibis=research ibis
+CommandName_get_power_of_ra=ra'nın gücünü elde et
+; -----------------------------------------------------------------------------
+; Faction
+FactionName_indian=kızılderili
+; -------------------------------------
+; Types of Upgrades for this Faction
+UpgradeTypeName_advanced_iron=gelişmiş demir
+UpgradeTypeName_bull_food=Boğa yemi
+UpgradeTypeName_iron=demir
+UpgradeTypeName_petroleum=petrol
+UpgradeTypeName_stables=ahırlar
+UpgradeTypeName_training_field=eğitim alanı
+; -------------------------------------
+UnitTypeName_archer=okçu
+; -------------------------------------
+UnitTypeName_axe_indian=baltalı kızılderili
+; -------------------------------------
+UnitTypeName_axe_thrower=balta sallayan
+; -------------------------------------
+UnitTypeName_beehive=arı kovanı
+; -------------------------------------
+UnitTypeName_big_tent=büyük çadır
+; --------------------
+CommandName_produce_stickfighter=sopalı dövüşçü üret
+CommandName_produce_archer=okçu üretme
+; -------------------------------------
+UnitTypeName_bull=boğa
+; -------------------------------------
+UnitTypeName_campfire=kamp ateşi
+; --------------------
+# CommandName_produce_fire_golem=produce fire golem
+CommandName_research_iron=demir araştır
+CommandName_research_advanced_iron=gelişmiş demir araştır
+; -------------------------------------
+UnitTypeName_fire_archer=ateş okçusu
+; -------------------------------------
+# UnitTypeName_fire_golem=fire golem
+; -------------------------------------
+UnitTypeName_horse_farm=at çiftliği
+; --------------------
+CommandName_produce_horseman=atlı üretme
+CommandName_produce_bull=boğa üret
+CommandName_research_stables=ahır araştır
+; -------------------------------------
+UnitTypeName_horseman=atlı
+; -------------------------------------
+UnitTypeName_main_teepee=büyük çadır
+; --------------------
+CommandName_produce_worker=işçi üret
+; -------------------------------------
+UnitTypeName_reed=kamış
+; --------------------
+CommandName_research_bull_food=boğa yemi araştır
+; -------------------------------------
+UnitTypeName_round_tent=yuvarlak çadır
+; --------------------
+CommandName_produce_axe_indian=baltalı kızılderili üret
+CommandName_produce_axe_thrower=balta sallayan üret
+CommandName_produce_fire_archer=ateş okçusu üret
+CommandName_create_training_field=eğitim alanı oluştur
+; -------------------------------------
+UnitTypeName_shaman=şaman
+; --------------------
+CommandName_molotov=molotof
+CommandName_produce_thunderbird=yıldırımkuşu üret
+CommandName_build_beehive=arı kovanı yap
+; -------------------------------------
+; Unit > spearman
+; --------------------
+LevelName_guardian=gardiyan
+LevelName_chief=şef/baş
+; -------------------------------------
+UnitTypeName_stickfighter=sopalı dövüşçü
+; -------------------------------------
+UnitTypeName_tent=çadır
+; -------------------------------------
+UnitTypeName_thunderbird=yıldırım
+; --------------------
+CommandName_throw=atmak
+CommandName_breath=nefes
+; -------------------------------------
+UnitTypeName_totem=totem
+; --------------------
+# CommandName_air_on=air on
+CommandName_research_petroleum=petrol araştır
+CommandName_produce_shaman=şaman üret
+; -------------------------------------
+UnitTypeName_worker=işçi
+; -----------------------------------------------------------------------------
+; Faction
+FactionName_magic=büyü
+; -------------------------------------
+; Types of Upgrades for this Faction
+UpgradeTypeName_ancient_summoning=Eski çağırma
+UpgradeTypeName_dragon_call=ejderha çağrısı
+UpgradeTypeName_energy_compression=enerji sıkıştırma
+UpgradeTypeName_energy_sharpening=enerji bileme
+# UpgradeTypeName_faster_movement=faster movement
+# UpgradeTypeName_golem_power=golem power
+UpgradeTypeName_hell_gate=cehennem kapısı
+; -------------------------------------
+UnitTypeName_archmage=başbüyücü
+; --------------------
+# CommandName_static_fire=static fire
+; -------------------------------------
+UnitTypeName_archmage_tower=başbüyücü kulesi
+; --------------------
+CommandName_research_dragon_call=ejderha çağrısı araştır
+# CommandName_golem_power=golem power
+; -------------------------------------
+UnitTypeName_battlemage=savaş büyücüsü
+; --------------------
+# CommandName_fire_bolt=fire bolt
+CommandName_promote_to_archmage=başbüyücüyü teşvik etme
+; -------------------------------------
+UnitTypeName_behemoth=dev yaratık
+; -------------------------------------
+UnitTypeName_daemon=şeytan
+; -------------------------------------
+# UnitTypeName_dragon_rider=dragon rider
+; --------------------
+# CommandName_fire_breath=fire breath
+CommandName_flare=işaret fişeği
+; -------------------------------------
+UnitTypeName_dragon=ejderha
+; --------------------
+CommandName_promote_to_evil_dragon=kötü ejderhayı teşvik etme
+; -------------------------------------
+UnitTypeName_energy_source=enerji kaynağı
+; -------------------------------------
+UnitTypeName_evil_dragon=kötü ejderha
+; -------------------------------------
+UnitTypeName_ghost_armor=hayalet zırhı
+; -------------------------------------
+UnitTypeName_golem=golem
+; --------------------
+# CommandName_promote_to_power_golem=promote to power golem
+; -------------------------------------
+UnitTypeName_initiate=Başlatma
+; --------------------
+CommandName_build=yapı
+CommandName_ritual=Ayin
+CommandName_harvest=hasat
+# CommandName_promote_to_battlemage=promote to battlemage
+; -------------------------------------
+UnitTypeName_library=kitaplık
+; --------------------
+# CommandName_research_energy_compression=research energy compression
+# CommandName_research_energy_sharpening=research energy sharpening
+CommandName_research_hell_gate=cehennem kapısını araştır
+; -------------------------------------
+UnitTypeName_mage_tower=büyücü kulesi
+; --------------------
+CommandName_produce_initiate=Başlatmayı sağla
+; -------------------------------------
+# UnitTypeName_power_golem=power golem
+; -------------------------------------
+UnitTypeName_summoner=Ulak
+; --------------------
+CommandName_summon_daemon=şeytan çağır
+CommandName_summon_ghost_armor=hayalet zırhı çağır
+CommandName_summon_dragon=ejderha çağır
+CommandName_summon_wingless_dragon=ördek çağır
+; -------------------------------------
+UnitTypeName_summoner_guild=birlik çağır
+; --------------------
+CommandName_produce_summoner=Ulak üretimi
+CommandName_research_ancient_summoning=antik çağrı araştır
+# CommandName_speed_up_movement=speed up movement
+; -------------------------------------
+UnitTypeName_tower_of_souls=ruhların kulesi
+; -------------------------------------
+UnitTypeName_wicker_behemoth=dallardan örülmüş dev yaratık
+; --------------------
+CommandName_promote_to_behemoth=dev yaratığı teşvik et
+; -----------------------------------------------------------------------------
+; Faction
+FactionName_norsemen=iskandinav adamlar
+; -------------------------------------
+; Types of Upgrades for this Faction
+UpgradeTypeName_arrow=ok
+UpgradeTypeName_holy_valkyrie=kutsal kadın savaşçı
+# UpgradeTypeName_mead=mead
+UpgradeTypeName_root=kök
+; -------------------------------------
+UnitTypeName_battleaxe=savaş baltası
+; --------------------
+CommandName_promote_to_battleaxe_berserk=savaş baltasını teşvik etme
+; -------------------------------------
+# UnitTypeName_battleaxe_berserk=battleaxe berserk
+; -------------------------------------
+UnitTypeName_blacksmith=demirci
+; --------------------
+CommandName_upgrade_iron=demiri yükselt
+CommandName_upgrade_arrow=oku yükselt
+CommandName_upgrade_advanced_iron=gelişmiş demiri yükselt
+CommandName_produce_crossbow=yaylı tüfek üretme
+; -------------------------------------
+UnitTypeName_bone_tent=kemik çadırı
+; --------------------
+CommandName_produce_swordman=kılıç ustası üret
+CommandName_produce_battleaxe=savaş baltası üret
+; -------------------------------------
+UnitTypeName_castle=kale
+; --------------------
+# CommandName_produce_thrall=produce thrall
+; -------------------------------------
+UnitTypeName_cow=inek
+; -------------------------------------
+UnitTypeName_crossbow=Yaylı tüfek
+; --------------------
+CommandName_attack_arrow=saldırı oku
+; -------------------------------------
+UnitTypeName_cudgel_lady=sopalı kadın
+; --------------------
+CommandName_cudgel=sopa
+; -------------------------------------
+; Unit > farm
+; --------------------
+CommandName_produce_cow=sığır üret
+; -------------------------------------
+UnitTypeName_flying_valkyrie=uçan kadın savaşçı
+; -------------------------------------
+UnitTypeName_house=ev
+; --------------------
+CommandName_produce_cudgel_lady=sopalı kadın üretimi
+; -------------------------------------
+# UnitTypeName_mead_bar=mead bar
+; --------------------
+# CommandName_research_mead=research mead
+; -------------------------------------
+UnitTypeName_mistletoe_tree=Ökse ağacı
+; --------------------
+CommandName_research_root=kök araştır
+CommandName_resurrect_wild_sow=yaban domuzunu dirilt
+; -------------------------------------
+; Unit > spearman
+; --------------------
+CommandName_promote_to_spearman_berserk=mızrakçıyı teşvik
+; -------------------------------------
+UnitTypeName_spearman_berserk=çılgınca hareket eden mızrakçı
+; -------------------------------------
+UnitTypeName_swordman=kılıç ustası
+; --------------------
+CommandName_promote_to_swordman_berserk=kılıç ustasını teşvik
+; -------------------------------------
+UnitTypeName_swordman_berserk=çılgınca hareket eden kılıç ustası
+; -------------------------------------
+# UnitTypeName_thor=thor
+; --------------------
+LevelName_advanced=gelişmiş
+; -------------------------------------
+# UnitTypeName_thor_totem=thor totem
+; --------------------
+# CommandName_build_thor=build thor
+; -------------------------------------
+# UnitTypeName_thrall=thrall
+; -------------------------------------
+# UnitTypeName_valhalla=valhalla
+; --------------------
+CommandName_produce_flying_valkyrie=uçan kadın savaşçı üret
+CommandName_produce_valkyrie=savaşçı kadın üret
+CommandName_research_holy_valkyrie=kutsal kadın savaşçı araştır
+; -------------------------------------
+UnitTypeName_valkyrie=savaşçı kadın
+; --------------------
+CommandName_airattack=hava saldırısı
+; -------------------------------------
+UnitTypeName_wild_sow=yaban domuzu
+; -----------------------------------------------------------------------------
+; Faction
+FactionName_persian=farsça
+; -------------------------------------
+; Types of Upgrades for this Faction
+UpgradeTypeName_corn_and_wicker=mısır ve sepet
+UpgradeTypeName_magic_level_1=büyü düzeyi 1
+UpgradeTypeName_magic_level_2=büyü düzeyi 2
+UpgradeTypeName_nails=çivi
+UpgradeTypeName_shield=kalkan
+UpgradeTypeName_weapons=silahlar
+; -------------------------------------
+; Unit > blacksmith
+; --------------------
+CommandName_upgrade_weapons=silahları yükselt
+CommandName_upgrade_nails=çivileri yükselt
+CommandName_upgrade_shield=kalkanı yükselt
+; -------------------------------------
+UnitTypeName_elephant=fil
+; -------------------------------------
+UnitTypeName_elephant_cage=fil kafesi
+; --------------------
+CommandName_produce_elephant=fil üret
+; -------------------------------------
+UnitTypeName_fakir=derviş
+; -------------------------------------
+; Unit > farm
+; --------------------
+CommandName_produce_sheep=koyun üret
+CommandName_research_corn_and_wicker=mısır ve sepet araştır
+; -------------------------------------
+UnitTypeName_flying_carpet=uçan halı
+; --------------------
+CommandName_magic_attack=büyü saldırısı
+; -------------------------------------
+UnitTypeName_genie=cin
+; -------------------------------------
+; Unit > house
+; --------------------
+CommandName_produce_fakir=derviş üretme
+; -------------------------------------
+UnitTypeName_magician=büyücü
+; --------------------
+CommandName_build_snake_basket=yılan sepeti yap
+; -------------------------------------
+UnitTypeName_minaret=minare
+; -------------------------------------
+UnitTypeName_palace=saray
+; -------------------------------------
+UnitTypeName_princess=prenses
+; -------------------------------------
+UnitTypeName_sheep=koyun
+; -------------------------------------
+UnitTypeName_snake_basket=yılan sepeti
+; -------------------------------------
+; Unit > temple
+; --------------------
+CommandName_produce_princess=prenses üret
+; -------------------------------------
+; Unit > tent
+; --------------------
+CommandName_produce_genie=cin üret
+CommandName_produce_flying_carpet=uçan halı üret
+CommandName_produce_magician=büyücü üret
+CommandName_upgrade_magic_level_1=büyü düzeyi 1'i yükselt
+CommandName_upgrade_magic_level_2=büyü düzeyi 2'yi yükselt
+; -----------------------------------------------------------------------------
+; Faction
+FactionName_romans=romalılar
+; -------------------------------------
+; Types of Upgrades for this Faction
+UpgradeTypeName_advanced_architecture=gelişmiş mimari
+UpgradeTypeName_bless_of_minerva=Zeka tanrıçasını kutsa
+UpgradeTypeName_enlarge_shields=kalkanları büyüt
+UpgradeTypeName_formations=oluşumlar
+UpgradeTypeName_jupiter=jüpiter
+UpgradeTypeName_reinforce_armor=zırh güçlendirme
+UpgradeTypeName_sharpen_points=noktaları netleştirme
+# UpgradeTypeName_sign_of_mars=sign of mars
+UpgradeTypeName_strengthen_swords=kılıçları güçlendirme
+; -------------------------------------
+; Unit > archer
+; --------------------
+CommandName_get_fire_arrows=ateş okları al
+; -------------------------------------
+UnitTypeName_axe_man=baltacı
+; -------------------------------------
+UnitTypeName_ballista=mancınık
+; -------------------------------------
+UnitTypeName_battering_ram=koçbaşı
+; --------------------
+CommandName_attack_land=arazi saldırısı
+CommandName_attack_air=hava saldırısı
+; -------------------------------------
+UnitTypeName_blacksmith_shop=demirci dükkanı
+; --------------------
+CommandName_strengthen_swords=kılıçları güçlendirme
+CommandName_sharpen_points=noktaları netleştirme
+CommandName_reinforce_armor=zırh güçlendirme
+CommandName_enlarge_shields=kalkanları büyüt
+; -------------------------------------
+UnitTypeName_catapult=küçük mancınık
+; --------------------
+CommandName_fire_ball=ateş topu
+; -------------------------------------
+UnitTypeName_cavalry=süvari
+; --------------------
+# CommandName_promote_to_tribune=promote to tribune
+; -------------------------------------
+UnitTypeName_eagle_pillar=kartal ayağı
+; -------------------------------------
+; Unit > fire archer
+; --------------------
+LevelName_accurate=özenli
+; -------------------------------------
+UnitTypeName_forum=forum
+; -------------------------------------
+UnitTypeName_general=genel
+; --------------------
+LevelName_esteemed=saygın
+LevelName_grand=büyük
+; -------------------------------------
+UnitTypeName_gladiator=gladyatör
+; -------------------------------------
+UnitTypeName_gladiator_school=gladyatör okulu
+; --------------------
+CommandName_train_gladiator=gladyatör eğitme
+CommandName_produce_axe_man=baltacı üret
+; -------------------------------------
+UnitTypeName_guard=bekçi
+; -------------------------------------
+UnitTypeName_guard_tower=nöbetçi kulesi
+; -------------------------------------
+UnitTypeName_military_camp=askeri kamp
+; --------------------
+CommandName_produce_cavalry=süvari üret
+CommandName_produce_turtle_formation=kaplumbağa oluşumu üret
+# CommandName_produce_general=produce general
+# CommandName_produce_mechanic=produce mechanic
+CommandName_upgrade_advanced_architecture=gelişmiş mimariyi yükselt
+CommandName_upgrade_formations=oluşumları yükselt
+; -------------------------------------
+UnitTypeName_swordsman=kılıç ustası
+; -------------------------------------
+; Unit > temple
+; --------------------
+# CommandName_research_sign_of_mars=research sign of mars
+# CommandName_research_jupiter=research jupiter
+CommandName_upgrade_bless_of_minerva=zeka tanrıçasının kutsamasını yükselt
+; -------------------------------------
+UnitTypeName_training_camp=eğitim kampı
+; --------------------
+CommandName_produce_guard=koruma üret
+CommandName_produce_swordsman=kılıç ustası üret
+; -------------------------------------
+UnitTypeName_tribune=tribün
+; -------------------------------------
+UnitTypeName_turtle_formation=kaplumbağa oluşumu
+; -------------------------------------
+# UnitTypeName_wartime_mechanic=wartime mechanic
+; --------------------
+CommandName_build_catapult=küçük mancınık yap
+# CommandName_build_battering_ram=build battering ram
+CommandName_build_ballista=mancınık yap
+; -----------------------------------------------------------------------------
+; Faction
+# FactionName_tech=tech
+; -------------------------------------
+; Types of Upgrades for this Faction
+UpgradeTypeName_blade_weapons=kesici silahlar
+UpgradeTypeName_piercing_weapons=delici silahlar
+UpgradeTypeName_robotics=robotik
+UpgradeTypeName_shield_level_1=kalkan düzeyi 1
+UpgradeTypeName_shield_level_2=kalkan düzeyi 2
+; -------------------------------------
+UnitTypeName_aerodrome=hangar
+; --------------------
+CommandName_produce_ornithopter=ornithopter üret
+CommandName_produce_airship=zeplin üret
+; -------------------------------------
+UnitTypeName_air_ballista=hava mancınığı
+; -------------------------------------
+UnitTypeName_airship=zeplin
+; --------------------
+CommandName_missile=füze
+; -------------------------------------
+UnitTypeName_barracks=barakalar
+; -------------------------------------
+UnitTypeName_battle_machine=savaş makinesi
+; -------------------------------------
+; Unit > blacksmith
+; --------------------
+CommandName_upgrade_blade_weapons=kesici silahları yükselt
+CommandName_upgrade_piercing_weapons=delici silahları yükselt
+; -------------------------------------
+UnitTypeName_defense_tower=savunma kulesi
+; -------------------------------------
+; Unit > farm
+; --------------------
+CommandName_produce_pig=domuz üret
+; -------------------------------------
+UnitTypeName_ornithopter=ornithopter
+; --------------------
+CommandName_fire_arrow=ateş oku
+; -------------------------------------
+UnitTypeName_pig=domuz
+; -------------------------------------
+; Unit > swordman
+; --------------------
+CommandName_promote_to_guard=korumayı teşvik etme
+; -------------------------------------
+UnitTypeName_technician=teknisyen
+; --------------------
+CommandName_build_ultimate=son yapı
+CommandName_mine_gold=altın madeni
+CommandName_build_battle_machine=savaş makinesi yapma
+CommandName_build_air_ballista=mancınık yapma
+; -------------------------------------
+# UnitTypeName_technodrome=technodrome
+; --------------------
+CommandName_produce_technician=teknisyen üretme
+CommandName_research_advanced_architecture=gelişmiş mimari araştır
+# CommandName_research_robotics=research robotics
+; -------------------------------------
+; Unit > worker
+; --------------------
+CommandName_build_advanced=gelişmiş yapı
+; -------------------------------------

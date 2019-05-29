@@ -1,0 +1,616 @@
+; TechTree
+TechTreeName=meaga-phacaid
+; -------------------------------------
+; Types of Armor
+ArmorTypeName_organic=fàs-bheartach
+ArmorTypeName_leather=leathar
+ArmorTypeName_wood=fiodh
+ArmorTypeName_metal=meatailt
+ArmorTypeName_stone=clach
+; --------------------
+; Types of Attack
+AttackTypeName_slashing=gearraidh
+AttackTypeName_piercing=biorach
+AttackTypeName_impact=bualadh
+AttackTypeName_energy=lùths
+AttackTypeName_sword=claidheamh
+AttackTypeName_arrow=saighead
+AttackTypeName_magic=draoidheach
+AttackTypeName_beat=buille
+; --------------------
+; Types of Resources
+ResourceTypeName_energy=lùths
+ResourceTypeName_food=biadh
+ResourceTypeName_gold=òr
+ResourceTypeName_housing=taighean
+ResourceTypeName_stone=clach
+ResourceTypeName_wood=fiodh
+; -----------------------------------------------------------------------------
+; Faction
+FactionName_egypt=Èipheit
+; -------------------------------------
+; Types of Upgrades for this Faction
+UpgradeTypeName_power_of_ra=cumhachd Rà
+UpgradeTypeName_spear_weapons=airm slèigh
+UpgradeTypeName_speedup_priest_production=dèanadas shagairtean as luaithe
+UpgradeTypeName_summon_ibis=taghairm ìbis
+UpgradeTypeName_summon_scarab=taghairm sgarab
+; -------------------------------------
+UnitTypeName_air_pyramid=pioramaid adhair
+; --------------------
+LevelName_elite=uasail
+; --------------------
+CommandName_attack_off=ionnsaighean dheth
+CommandName_attack_on=ionnsaighean air
+; -------------------------------------
+UnitTypeName_anubis_warrior=cathach anùbais
+; --------------------
+LevelName_ancient=àrsaidh
+; --------------------
+CommandName_stop=stad
+CommandName_move=gluais
+CommandName_attack=thoir ionnsaigh
+; -------------------------------------
+UnitTypeName_chicken=cearc
+; -------------------------------------
+UnitTypeName_desert_camp=campa fàsach
+; --------------------
+CommandName_produce_spearthrower=dèan tilgeir slèigh
+CommandName_produce_spearman=dèan sleaghadair
+CommandName_upgrade_spear_weapons=àrdaich na h-airm slèigh
+; -------------------------------------
+UnitTypeName_farm=tuathanas
+; --------------------
+CommandName_produce_chicken=dèan cearc
+; -------------------------------------
+UnitTypeName_ibis=ìbis
+; --------------------
+CommandName_hold_position=seas
+; -------------------------------------
+UnitTypeName_mummy=mamaidh
+; -------------------------------------
+UnitTypeName_obelisk=tursa Éiphiteach
+; --------------------
+CommandName_produce_scarab=dèan sgarab
+CommandName_produce_snake=dèan nathair
+CommandName_produce_ibis=dèan ìbis
+; -------------------------------------
+UnitTypeName_priest=sagairt
+; --------------------
+CommandName_speedup_priest_production=dèanadas shagairtean as luaithe
+CommandName_heal=slànaich
+CommandName_produce_mummy=dèan mamaidh
+CommandName_produce_anubis_warrior=dèan cathach anùbais
+CommandName_ice_nova=spreadhadh deighe
+; -------------------------------------
+UnitTypeName_pyramid=pioramaid
+; --------------------
+CommandName_produce_slave=dèan sglàbh
+; -------------------------------------
+UnitTypeName_scarab=sgarab
+; --------------------
+LevelName_expert=eòlaiche
+LevelName_master=maighstir
+LevelName_legendary=seann-sgeulach
+; --------------------
+CommandName_dung_attack=ionnsaigh buachair
+; -------------------------------------
+UnitTypeName_slave=sglàbh
+; --------------------
+CommandName_build_basic=togail bhunasach
+CommandName_repair=càraich
+CommandName_mine=tochail
+CommandName_harvest_wood=buain fiodh
+; -------------------------------------
+UnitTypeName_snake=nathair
+; --------------------
+CommandName_poison_shot=saighead phuinnseanach
+; -------------------------------------
+UnitTypeName_spearman=sleaghadair
+; -------------------------------------
+UnitTypeName_spearthrower=tilgeir slèigh
+; -------------------------------------
+UnitTypeName_sphinx=sphinx
+; -------------------------------------
+UnitTypeName_temple=teampaill
+; --------------------
+CommandName_produce_priest=dèan sagairt
+CommandName_research_scarab=rannsaich sgarab
+CommandName_research_ibis=rannsaich ìbis
+CommandName_get_power_of_ra=faigh cumhachd Rà
+; -----------------------------------------------------------------------------
+; Faction
+FactionName_indian=Innseanaich
+; -------------------------------------
+; Types of Upgrades for this Faction
+UpgradeTypeName_advanced_iron=iarainn adhartach
+UpgradeTypeName_bull_food=biadh sprèidhe
+UpgradeTypeName_iron=iarainn
+UpgradeTypeName_petroleum=ola
+UpgradeTypeName_stables=stàballan
+UpgradeTypeName_training_field=raon trèanaidh
+; -------------------------------------
+UnitTypeName_archer=boghadair
+; -------------------------------------
+UnitTypeName_axe_indian=Innseanach tuaighe
+; -------------------------------------
+UnitTypeName_axe_thrower=tilgeir tuaighe
+; -------------------------------------
+UnitTypeName_beehive=sgeap
+; -------------------------------------
+UnitTypeName_big_tent=mòr-theanta
+; --------------------
+CommandName_produce_stickfighter=dèan cathach bata
+CommandName_produce_archer=dèan boghadair
+; -------------------------------------
+UnitTypeName_bull=tarbh
+; -------------------------------------
+UnitTypeName_campfire=teine campa
+; --------------------
+CommandName_produce_fire_golem=dèan gòileam teine
+CommandName_research_iron=rannsaich iarainn
+CommandName_research_advanced_iron=rannsaich iarainn adhartach
+; -------------------------------------
+UnitTypeName_fire_archer=boghadair teine
+; -------------------------------------
+UnitTypeName_fire_golem=gòileam teine
+; -------------------------------------
+UnitTypeName_horse_farm=tuathanas eich
+; --------------------
+CommandName_produce_horseman=dèan marcaiche
+CommandName_produce_bull=dèan tarbh
+CommandName_research_stables=rannsaich stàballan
+; -------------------------------------
+UnitTypeName_horseman=marcaiche
+; -------------------------------------
+UnitTypeName_main_teepee=prìomh thìpidh
+; --------------------
+CommandName_produce_worker=dèan obraiche
+; -------------------------------------
+UnitTypeName_reed=cuilc
+; --------------------
+CommandName_research_bull_food=rannsaich biadh sprèidhe
+; -------------------------------------
+UnitTypeName_round_tent=teanta cruinn
+; --------------------
+CommandName_produce_axe_indian=dèan tùsanach tuaighe
+CommandName_produce_axe_thrower=dèan tilgeir tuaighe
+CommandName_produce_fire_archer=dèan boghadair teine
+CommandName_create_training_field=tog raon trèanaidh
+; -------------------------------------
+UnitTypeName_shaman=seuman
+; --------------------
+CommandName_molotov=molotobh
+CommandName_produce_thunderbird=eun tàirneanaich
+CommandName_build_beehive=tog sgeap
+; -------------------------------------
+; Unit > spearman
+; --------------------
+LevelName_guardian=cùra
+LevelName_chief=ceannard
+; -------------------------------------
+UnitTypeName_stickfighter=cathach bata
+; -------------------------------------
+UnitTypeName_tent=teanta
+; -------------------------------------
+UnitTypeName_thunderbird=eun tàirneanach
+; --------------------
+CommandName_throw=tilg
+CommandName_breath=anail
+; -------------------------------------
+UnitTypeName_totem=tòtam
+; --------------------
+CommandName_air_on=adhair air
+CommandName_research_petroleum=rannsaich ola
+CommandName_produce_shaman=dèan seuman
+; -------------------------------------
+UnitTypeName_worker=obraiche
+; -----------------------------------------------------------------------------
+; Faction
+FactionName_magic=Draoidhean
+; -------------------------------------
+; Types of Upgrades for this Faction
+UpgradeTypeName_ancient_summoning=taghairm àrsaidh
+UpgradeTypeName_dragon_call=gairm dràgoin
+UpgradeTypeName_energy_compression=teannachadh lùiths
+UpgradeTypeName_energy_sharpening=geurachadh lùiths
+UpgradeTypeName_faster_movement=gluasad nas luaithe
+UpgradeTypeName_golem_power=cumhachd gòileim
+UpgradeTypeName_hell_gate=doras ifrinne
+; -------------------------------------
+UnitTypeName_archmage=àrd-dhraoidh
+; --------------------
+CommandName_static_fire=teine seasmhach
+; -------------------------------------
+UnitTypeName_archmage_tower=tùr nan àrd-dhraoidh
+; --------------------
+CommandName_research_dragon_call=rannsaich gairm dràgoin
+CommandName_golem_power=cumhachd gòileim
+; -------------------------------------
+UnitTypeName_battlemage=draoidh-catha
+; --------------------
+CommandName_fire_bolt=saighead theine
+CommandName_promote_to_archmage=àrdaich gu àrd-dhraoidh
+; -------------------------------------
+UnitTypeName_behemoth=mòr-bhèist
+; -------------------------------------
+UnitTypeName_daemon=ifrinneach
+; -------------------------------------
+UnitTypeName_dragon_rider=marcaiche dràic
+; --------------------
+CommandName_fire_breath=anail teine
+CommandName_flare=lasair
+; -------------------------------------
+UnitTypeName_dragon=dràgon
+; --------------------
+CommandName_promote_to_evil_dragon=àrdaich gu dràgon feargach
+; -------------------------------------
+UnitTypeName_energy_source=tobar lùiths
+; -------------------------------------
+UnitTypeName_evil_dragon=dràgon feargach
+; -------------------------------------
+UnitTypeName_ghost_armor=taibhs-armachd
+; -------------------------------------
+UnitTypeName_golem=gòileam
+; --------------------
+CommandName_promote_to_power_golem=àrdaich gu lùths-ghòileam
+; -------------------------------------
+UnitTypeName_initiate=foghlamaiche
+; --------------------
+CommandName_build=tog
+CommandName_ritual=deas-ghnàth
+CommandName_harvest=buain
+CommandName_promote_to_battlemage=àrdaich gu draoidh-catha
+; -------------------------------------
+UnitTypeName_library=leabhar-lann
+; --------------------
+CommandName_research_energy_compression=rannsaich teannachadh lùiths
+CommandName_research_energy_sharpening=rannsaich geurachadh lùiths
+CommandName_research_hell_gate=rannsaich doras ifrinne
+; -------------------------------------
+UnitTypeName_mage_tower=tùr nan draoidh
+; --------------------
+CommandName_produce_initiate=dèan foghlamaiche
+; -------------------------------------
+UnitTypeName_power_golem=lùths-ghòileam
+; -------------------------------------
+UnitTypeName_summoner=taghairmear
+; --------------------
+CommandName_summon_daemon=taghairm ifrinneach
+CommandName_summon_ghost_armor=taghairm taibhs-armachd
+CommandName_summon_dragon=taghairm dràgon
+CommandName_summon_wingless_dragon=taghairm dràc
+; -------------------------------------
+UnitTypeName_summoner_guild=comann nan taghairmearan
+; --------------------
+CommandName_produce_summoner=dèan taghairmear
+CommandName_research_ancient_summoning=rannsaich taghairm àrsaidh
+CommandName_speed_up_movement=dèan an gluasad nas luaithe
+; -------------------------------------
+UnitTypeName_tower_of_souls=tùr nan anman
+; -------------------------------------
+UnitTypeName_wicker_behemoth=mòr-bhèist shlatach
+; --------------------
+CommandName_promote_to_behemoth=àrdaich gu mòr-bhèist
+; -----------------------------------------------------------------------------
+; Faction
+FactionName_norsemen=Lochlannaich
+; -------------------------------------
+; Types of Upgrades for this Faction
+UpgradeTypeName_arrow=saighead
+UpgradeTypeName_holy_valkyrie=bailgiridh naomh
+UpgradeTypeName_mead=mil-dheoch
+UpgradeTypeName_root=freumh
+; -------------------------------------
+UnitTypeName_battleaxe=tuagh catha
+; --------------------
+CommandName_promote_to_battleaxe_berserk=àrdaich gu tuagh catha
+; -------------------------------------
+UnitTypeName_battleaxe_berserk=tuagh catha boile
+; -------------------------------------
+UnitTypeName_blacksmith=gobha
+; --------------------
+CommandName_upgrade_iron=àrdaich gu iarainn
+CommandName_upgrade_arrow=àrdaich na saighdean
+CommandName_upgrade_advanced_iron=àrdaich gu iarainn adhartach
+CommandName_produce_crossbow=dèan crois-bhogha
+; -------------------------------------
+UnitTypeName_bone_tent=teanta cnàmha
+; --------------------
+CommandName_produce_swordman=dèan claidheamhair
+CommandName_produce_battleaxe=dèan tuagh catha
+; -------------------------------------
+UnitTypeName_castle=caisteal
+; --------------------
+CommandName_produce_thrall=dèan tràill
+; -------------------------------------
+UnitTypeName_cow=bò
+; -------------------------------------
+UnitTypeName_crossbow=crois-bhogha
+; --------------------
+CommandName_attack_arrow=ionnsaigh saighde
+; -------------------------------------
+UnitTypeName_cudgel_lady=bean chuaille
+; --------------------
+CommandName_cudgel=cuaille
+; -------------------------------------
+; Unit > farm
+; --------------------
+CommandName_produce_cow=dèan bò
+; -------------------------------------
+UnitTypeName_flying_valkyrie=bailgiridh sgiathach
+; -------------------------------------
+UnitTypeName_house=taigh
+; --------------------
+CommandName_produce_cudgel_lady=dèan bean chuaille
+; -------------------------------------
+UnitTypeName_mead_bar=bàr mil-dhighe
+; --------------------
+CommandName_research_mead=rannsaich mil-dheoch
+; -------------------------------------
+UnitTypeName_mistletoe_tree=craobh uile-ìce
+; --------------------
+CommandName_research_root=rannsaich freumh
+CommandName_resurrect_wild_sow=ath-bheothaich cràin-fhiadhaich
+; -------------------------------------
+; Unit > spearman
+; --------------------
+CommandName_promote_to_spearman_berserk=àrdaich gu sleaghadair
+; -------------------------------------
+UnitTypeName_spearman_berserk=sleaghadair boile
+; -------------------------------------
+UnitTypeName_swordman=claidheamhair
+; --------------------
+CommandName_promote_to_swordman_berserk=àrdaich gu claidheamhair
+; -------------------------------------
+UnitTypeName_swordman_berserk=claidheamhair boile
+; -------------------------------------
+UnitTypeName_thor=Tor
+; --------------------
+LevelName_advanced=adhartach
+; -------------------------------------
+UnitTypeName_thor_totem=tòtaim Toir
+; --------------------
+CommandName_build_thor=tog Tor
+; -------------------------------------
+UnitTypeName_thrall=tràill
+; -------------------------------------
+UnitTypeName_valhalla=bhal-thalla
+; --------------------
+CommandName_produce_flying_valkyrie=dèan bailgiridh sgiathach
+CommandName_produce_valkyrie=dèan bailgiridh
+CommandName_research_holy_valkyrie=rannsaich bailgiridh naomh
+; -------------------------------------
+UnitTypeName_valkyrie=bailgiridh
+; --------------------
+CommandName_airattack=ionnsaigh adhair
+; -------------------------------------
+UnitTypeName_wild_sow=cràin-fhiadhaich
+; -----------------------------------------------------------------------------
+; Faction
+FactionName_persian=Pearsaich
+; -------------------------------------
+; Types of Upgrades for this Faction
+UpgradeTypeName_corn_and_wicker=slat is arbhar
+UpgradeTypeName_magic_level_1=draoidheachd adhartach
+UpgradeTypeName_magic_level_2=sàr-dhraoidheachd
+UpgradeTypeName_nails=tarragan
+UpgradeTypeName_shield=sgiath
+UpgradeTypeName_weapons=airm
+; -------------------------------------
+; Unit > blacksmith
+; --------------------
+CommandName_upgrade_weapons=àrdaich na h-airm
+CommandName_upgrade_nails=àrdaich gu tarragan
+CommandName_upgrade_shield=àrdaich na sgiathan
+; -------------------------------------
+UnitTypeName_elephant=ailbhean
+; -------------------------------------
+UnitTypeName_elephant_cage=cèidse ailbhein
+; --------------------
+CommandName_produce_elephant=dèan ailbhean
+; -------------------------------------
+UnitTypeName_fakir=feaghar
+; -------------------------------------
+; Unit > farm
+; --------------------
+CommandName_produce_sheep=dèan caora
+CommandName_research_corn_and_wicker=rannsaich slat is arbhar
+; -------------------------------------
+UnitTypeName_flying_carpet=brat-ùrlair sgiathach
+; --------------------
+CommandName_magic_attack=ionnsaigh draoidheach
+; -------------------------------------
+UnitTypeName_genie=dìnidh
+; -------------------------------------
+; Unit > house
+; --------------------
+CommandName_produce_fakir=dèan feaghar
+; -------------------------------------
+UnitTypeName_magician=fiosaiche
+; --------------------
+CommandName_build_snake_basket=tog basgaid nathrach
+; -------------------------------------
+UnitTypeName_minaret=manarat
+; -------------------------------------
+UnitTypeName_palace=lùchairt
+; -------------------------------------
+UnitTypeName_princess=bana-phrionnsa
+; -------------------------------------
+UnitTypeName_sheep=caora
+; -------------------------------------
+UnitTypeName_snake_basket=basgaid nathrach
+; -------------------------------------
+; Unit > temple
+; --------------------
+CommandName_produce_princess=dèan bana-phrionnsa
+; -------------------------------------
+; Unit > tent
+; --------------------
+CommandName_produce_genie=dèan dìnidh
+CommandName_produce_flying_carpet=dèan brat-ùrlair sgiathach
+CommandName_produce_magician=dèan fiosaiche
+CommandName_upgrade_magic_level_1=àrdaich gu draoidheachd adhartach
+CommandName_upgrade_magic_level_2=àrdaich gu sàr-dhaoidheachd
+; -----------------------------------------------------------------------------
+; Faction
+FactionName_romans=Ròmanaich
+; -------------------------------------
+; Types of Upgrades for this Faction
+UpgradeTypeName_advanced_architecture=ailtireachd adhartach
+UpgradeTypeName_bless_of_minerva=beannachd Minearbha
+UpgradeTypeName_enlarge_shields=meudaich sgiathan
+UpgradeTypeName_formations=cumaidhean
+UpgradeTypeName_jupiter=Iupatar
+UpgradeTypeName_reinforce_armor=neartaich an armachd
+UpgradeTypeName_sharpen_points=geuraich bioran
+UpgradeTypeName_sign_of_mars=samhla Mhàirs
+UpgradeTypeName_strengthen_swords=neartaich claidheamhan
+; -------------------------------------
+; Unit > archer
+; --------------------
+CommandName_get_fire_arrows=faigh saighdean teine
+; -------------------------------------
+UnitTypeName_axe_man=cathach tuaighe
+; -------------------------------------
+UnitTypeName_ballista=bogha-tilgeil
+; -------------------------------------
+UnitTypeName_battering_ram=reithe-mulcaidh
+; --------------------
+CommandName_attack_land=ionnsaigh tìre
+CommandName_attack_air=ionnsaigh adhair
+; -------------------------------------
+UnitTypeName_blacksmith_shop=bùth gobhainn
+; --------------------
+CommandName_strengthen_swords=neartaich claidheamhan
+CommandName_sharpen_points=geuraich bioran
+CommandName_reinforce_armor=neartaich an armachd
+CommandName_enlarge_shields=meudaich sgiathan
+; -------------------------------------
+UnitTypeName_catapult=crann-tabhail
+; --------------------
+CommandName_fire_ball=bàla teine
+; -------------------------------------
+UnitTypeName_cavalry=eachraidh
+; --------------------
+CommandName_promote_to_tribune=àrdaich gu treubhan
+; -------------------------------------
+UnitTypeName_eagle_pillar=carragh iolaire
+; -------------------------------------
+; Unit > fire archer
+; --------------------
+LevelName_accurate=pongail
+; -------------------------------------
+UnitTypeName_forum=fòram
+; -------------------------------------
+UnitTypeName_general=ceann-armailt
+; --------------------
+LevelName_esteemed=measail
+LevelName_grand=mòr
+; -------------------------------------
+UnitTypeName_gladiator=gladair
+; -------------------------------------
+UnitTypeName_gladiator_school=sgoil nan gladairean
+; --------------------
+CommandName_train_gladiator=trèanaich gladair
+CommandName_produce_axe_man=dèan cathach tuaighe
+; -------------------------------------
+UnitTypeName_guard=geàrd
+; -------------------------------------
+UnitTypeName_guard_tower=turaid-faire
+; -------------------------------------
+UnitTypeName_military_camp=campa feachd
+; --------------------
+CommandName_produce_cavalry=dèan eachraidh
+CommandName_produce_turtle_formation=dèan cumadh sligeanach
+CommandName_produce_general=dèan ceann-armailt
+CommandName_produce_mechanic=dèan ceàrd
+CommandName_upgrade_advanced_architecture=àrdaich gu ailtireachd adhartach
+CommandName_upgrade_formations=àrdaich na cumaidhean
+; -------------------------------------
+UnitTypeName_swordsman=claidheamhair
+; -------------------------------------
+; Unit > temple
+; --------------------
+CommandName_research_sign_of_mars=rannsaich samhla Mhàirs
+CommandName_research_jupiter=rannsaich Iupatar
+CommandName_upgrade_bless_of_minerva=àrdaich beannachd Minearbha
+; -------------------------------------
+UnitTypeName_training_camp=campa trèanaidh
+; --------------------
+CommandName_produce_guard=dèan geàrd
+CommandName_produce_swordsman=dèan claidheamhair
+; -------------------------------------
+UnitTypeName_tribune=treubhan
+; -------------------------------------
+UnitTypeName_turtle_formation=cumadh sligeanach
+; -------------------------------------
+UnitTypeName_wartime_mechanic=ceàrd blàir
+; --------------------
+CommandName_build_catapult=tog crann-tabhail
+CommandName_build_battering_ram=tog reithe-mulcaidh
+CommandName_build_ballista=tog bogha-tilgeil
+; -----------------------------------------------------------------------------
+; Faction
+FactionName_tech=Teicneolaich
+; -------------------------------------
+; Types of Upgrades for this Faction
+UpgradeTypeName_blade_weapons=airm lanna
+UpgradeTypeName_piercing_weapons=airm bhiorach
+UpgradeTypeName_robotics=robotaireachd
+UpgradeTypeName_shield_level_1=sgiath adhartach
+UpgradeTypeName_shield_level_2=sàr-sgiath
+; -------------------------------------
+UnitTypeName_aerodrome=raon adhair
+; --------------------
+CommandName_produce_ornithopter=eun-sgiathaiche
+CommandName_produce_airship=dèan long adhair
+; -------------------------------------
+UnitTypeName_air_ballista=bogha-tilgeil adhair
+; -------------------------------------
+UnitTypeName_airship=long adhair
+; --------------------
+CommandName_missile=astas
+; -------------------------------------
+UnitTypeName_barracks=taigh-feachd
+; -------------------------------------
+UnitTypeName_battle_machine=inneal-catha
+; -------------------------------------
+; Unit > blacksmith
+; --------------------
+CommandName_upgrade_blade_weapons=àrdaich na h-airm lanna
+CommandName_upgrade_piercing_weapons=àrdaich na h-airm bhiorach
+; -------------------------------------
+UnitTypeName_defense_tower=tùr dìonadach
+; -------------------------------------
+; Unit > farm
+; --------------------
+CommandName_produce_pig=dèan muc
+; -------------------------------------
+UnitTypeName_ornithopter=eun-sgiathaiche
+; --------------------
+CommandName_fire_arrow=tilg saighead
+; -------------------------------------
+UnitTypeName_pig=muc
+; -------------------------------------
+; Unit > swordman
+; --------------------
+CommandName_promote_to_guard=àrdaich gu geàrd
+; -------------------------------------
+UnitTypeName_technician=teicneolaiche
+; --------------------
+CommandName_build_ultimate=sàr-thogail
+CommandName_mine_gold=tochail òr
+CommandName_build_battle_machine=tog inneal-catha
+CommandName_build_air_ballista=tog bogha-tilgeil adhair
+; -------------------------------------
+UnitTypeName_technodrome=ceàrdach teicneolach
+; --------------------
+CommandName_produce_technician=dèan teicneolaiche
+CommandName_research_advanced_architecture=rannsaich ailtireachd adhartach
+CommandName_research_robotics=rannsaich robotaireachd
+; -------------------------------------
+; Unit > worker
+; --------------------
+CommandName_build_advanced=togail adhartach
+; -------------------------------------
