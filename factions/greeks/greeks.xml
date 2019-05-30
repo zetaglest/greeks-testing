@@ -17,11 +17,22 @@
 		<unit name="chicken" amount="3"/>
 	</starting-units>
 	<ai-behavior>
+		<worker-units>
+			<unit name="slave" minimum="10"/>
+		</worker-units>
+		<warrior-units>
+			<unit name="psiloi" minimum="8"/>
+			<unit name="hoplite" minimum="4"/>
+			<unit name="archer" minimum="3"/>
+			<unit name="slave" minimum="12"/>
+		</warrior-units>
 		<resource-producer-units/>
 		<building-units>
-			<unit name="barracks" minimum="1"/>
-			<unit name="blacksmith" minimum="1"/>
 			<unit name="barracks" minimum="2"/>
+			<unit name="blacksmith" minimum="1"/>
+			<unit name="barracks" minimum="1"/>
+			<unit name="temple" minimum="1"/>
+			<unit name="palace" minimum="1"/>
 		</building-units>
 		<upgrades>
 			<upgrade name="advanced_buildings"/>

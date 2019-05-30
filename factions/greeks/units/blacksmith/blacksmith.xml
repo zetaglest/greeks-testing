@@ -8,7 +8,7 @@
 		<max-hp value="6000" regeneration="0"/>
 		<max-ep value="0" />
 		<armor value="0" />
-		<armor-type value="wood"/>
+		<armor-type value="metal"/>
 		<sight value="12" />
 		<time value="105" />
 		<multi-selection value="true"/>
@@ -37,7 +37,7 @@
 			<resource name="wood" amount="150" />
 		</resource-requirements>
 		<resources-stored>
-			<resource name="wood" amount="200" />
+			<resource name="wood" amount="1200" />
 		</resources-stored>
 		<image path="images/blacksmith.bmp"/>
 		<image-cancel path="../archer/images/tech_cancel.bmp"/>
@@ -146,9 +146,23 @@
 
 		<command>
 			<type value="upgrade"/>
+			<name value="research_advanced_buildings"/>
+			<image path="../../upgrades/advanced_buildings/images/training_field.bmp"/>
+			<unit-requirements>
+				<unit name="engineer"/>
+			</unit-requirements>
+			<upgrade-requirements/>
+			<upgrade-skill value="upgrade_skill"/>
+			<produced-upgrade name="advanced_buildings"/>
+		</command>
+
+		<command>
+			<type value="upgrade"/>
 			<name value="upgrade_shields" />
 			<image path="../../upgrades/shields/images/shield1.bmp" />
-			<unit-requirements />
+			<unit-requirements>
+				<unit name="temple"/>
+			</unit-requirements>
 			<upgrade-requirements />
 			<upgrade-skill value="upgrade_skill"/>
 			<produced-upgrade name="shields"/>
@@ -158,7 +172,9 @@
 			<type value="upgrade"/>
 			<name value="upgrade_weapons" />
 			<image path="../../upgrades/weapons/images/piercing.bmp" />
-			<unit-requirements />
+			<unit-requirements>
+				<unit name="temple"/>
+			</unit-requirements>
 			<upgrade-requirements />
 			<upgrade-skill value="upgrade_skill"/>
 			<produced-upgrade name="weapons"/>
@@ -168,7 +184,9 @@
 			<type value="upgrade"/>
 			<name value="upgrade_helmets" />
 			<image path="../../upgrades/helmets/images/h.bmp" />
-			<unit-requirements />
+			<unit-requirements>
+				<unit name="temple"/>
+			</unit-requirements>
 			<upgrade-requirements />
 			<upgrade-skill value="upgrade_skill"/>
 			<produced-upgrade name="helmets"/>

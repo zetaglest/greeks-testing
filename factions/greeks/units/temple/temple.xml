@@ -131,7 +131,9 @@
 			<type value="upgrade"/>
 			<name value="research_pandora"/>
 			<image path="../../upgrades/pandora/images/shield1.bmp"/>
-			<unit-requirements/>
+		<unit-requirements>
+			<unit name="priest"/>
+		</unit-requirements>
 			<upgrade-requirements/>
 			<upgrade-skill value="upgrade_skill"/>
 			<produced-upgrade name="pandora"/>
@@ -141,7 +143,9 @@
 			<type value="upgrade"/>
 			<name value="research_golden_arrow"/>
 			<image path="../../upgrades/golden_arrow/images/shield1.bmp"/>
-			<unit-requirements/>
+			<unit-requirements>
+				<unit name="priest"/>
+			</unit-requirements>
 			<upgrade-requirements/>
 			<upgrade-skill value="upgrade_skill"/>
 			<produced-upgrade name="golden_arrow"/>

@@ -31,7 +31,7 @@
 		<rotationAllowed value="true" />
 		<unit-requirements>
 			<unit name="blacksmith"/>
-			<unit name="castle"/>
+			<unit name="temple"/>
 		</unit-requirements>
 		<upgrade-requirements/>
 		<resource-requirements>

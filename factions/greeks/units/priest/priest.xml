@@ -289,7 +289,9 @@ me about the fix
 			<name value="summon_atlas"/>
 			<image path="../atlas/images/atlas.bmp"/>
 			<unit-requirements />
-			<upgrade-requirements />
+			<upgrade-requirements>
+				<upgrade name="speedup_priest_production"/>
+			</upgrade-requirements>
 			<produce-skill value="produce_skill"/>
 			<produced-unit name="atlas"/>
 		</command>
@@ -299,7 +301,9 @@ me about the fix
 			<name value="produce_dragon"/>
 			<image path="../dragon/images/dragon.bmp"/>
 			<unit-requirements />
-			<upgrade-requirements />
+			<upgrade-requirements>
+				<upgrade name="speedup_priest_production"/>
+			</upgrade-requirements>
 			<produce-skill value="produce_skill"/>
 			<produced-unit name="dragon"/>
 		</command>
