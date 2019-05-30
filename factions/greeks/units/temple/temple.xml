@@ -116,24 +116,15 @@
 
 	<!-- *** commands *** -->
 	<commands>
-		<command>
-			<type value="produce"/>
-			<name value="produce_dragon"/>
-			<image path="../dragon/images/dragon.bmp"/>
-			<unit-requirements />
-			<upgrade-requirements />
-			<produce-skill value="produce_skill"/>
-			<produced-unit name="dragon"/>
-		</command>
 
 		<command>
 			<type value="produce"/>
-			<name value="produce_atlas"/>
-			<image path="../atlas/images/atlas.bmp"/>
+			<name value="produce_priest" />
+			<image path="../priest/images/priest.bmp" />
 			<unit-requirements />
 			<upgrade-requirements />
 			<produce-skill value="produce_skill"/>
-			<produced-unit name="atlas"/>
+			<produced-unit name="priest"/>
 		</command>
 
 		<command>

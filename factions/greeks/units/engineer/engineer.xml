@@ -87,6 +87,9 @@
 			<animation path="models/upgrade/engineer_research.g3d" />
 			<particles value="false"/>
 			<sound enabled="false"/>
+			<particles value="true">
+				<particle-file path="../../particles/upgrade_particles.xml" />
+			</particles>
 		</skill>
 
 		<skill>
@@ -154,16 +157,6 @@
 			<projectile value="false"/>
 			<splash value="false"/>
 		</skill> -->
-
-		<skill>
-			<type value="repair"/>
-			<name value="heal"/>
-			<ep-cost value="0"/>
-			<speed value="210"/>
-			<anim-speed value="210"/>
-			<animation path="models/engineer_heal.g3d"/>
-			<sound enabled="false"/>
-		</skill>
 
 		<skill>
 			<type value="build"/>
@@ -307,50 +300,6 @@
 				<unit name="onager"/>
 			</repaired-units>
 		</command>
-
-		<command>
-			<type value="repair"/>
-			<name value="heal"/>
-			<image path="images/technician_heal.bmp"/>
-			<unit-requirements/>
-			<upgrade-requirements/>
-			<move-skill value="move_skill"/>
-			<repair-skill value="heal"/>
-			<repaired-units>
-				<unit name="slave"/>
-				<unit name="cavalry"/>
-				<unit name="engineer"/>
-				<unit name="hoplite"/>
-				<unit name="peltast"/>
-				<unit name="alexander"/>
-				<unit name="artemis"/>
-				<unit name="atlas"/>
-				<unit name="archer"/>
-				<unit name="psiloi"/>
-			</repaired-units>
-		</command>
-
-		<!-- <command>
-			<type value="attack"/>
-			<name value="attack"/>
-			<image path="images/molotov.bmp"/>
-			<unit-requirements/>
-			<upgrade-requirements/>
-			<move-skill value="move_skill"/>
-			<attack-skill value="attack_skill"/>
-		</command>
-
-		<command>
-			<type value="attack_stopped"/>
-			<name value="hold_position"/>
-			<image path="../archer/images/tech_hold.bmp"/>
-			<unit-requirements/>
-			<upgrade-requirements>
-				<upgrade name="training_field"/>
-			</upgrade-requirements>
-			<stop-skill value="stop_skill"/>
-			<attack-skill value="attack_skill"/>
-		</command> -->
 
 		<command>
 			<type value="morph"/>
