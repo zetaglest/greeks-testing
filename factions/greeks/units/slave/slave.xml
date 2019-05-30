@@ -251,7 +251,7 @@
 			<move-skill value="move_skill"/>
 			<build-skill value="build_skill"/>
 			<buildings>
-                                <building name="barley_field"/>
+				<building name="farm"/>
 				<building name="barracks"/>
 				<building name="blacksmith"/>
 				<building name="castle"/>
@@ -264,25 +264,6 @@
 				<sound-file path="sounds/worker_work_end3.ogg"/>
 			</built-sound>
 		</command>
-
-		<!--command>
-			<type value= "build"/>
-			<name value="build_advanced"/>
-			<image path="images/worker_build_advanced.bmp"/>
-			<unit-requirements/>
-			<upgrade-requirements/>
-			<move-skill value="move_skill"/>
-			<build-skill value="build_skill"/>
-			<buildings>
-				<building name="tower"/>
-                	</buildings>
-			<start-sound enabled="false"/>
-			<built-sound enabled="true">
-				<sound-file path="sounds/worker_work_end1.ogg"/>
-				<sound-file path="sounds/worker_work_end2.ogg"/>
-				<sound-file path="sounds/worker_work_end3.ogg"/>
-			</built-sound>
-		</command-->
 
 		<command>
 			<type value="harvest"/>
@@ -328,7 +309,7 @@
 			<move-skill value="move_skill"/>
 			<repair-skill value="repair_skill"/>
 			<repaired-units>
-				<unit name="barley_field"/>
+				<unit name="farm"/>
 				<unit name="barracks"/>
 				<unit name="blacksmith"/>
 				<unit name="tower"/>

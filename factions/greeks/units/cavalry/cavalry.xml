@@ -23,7 +23,6 @@
 		<light enabled="false"/>
 		<unit-requirements>
 			<unit name="blacksmith"/>
-			<unit name="barley_field"/>
 		</unit-requirements>
 		<upgrade-requirements>
 			<upgrade name="barley_bales"/>

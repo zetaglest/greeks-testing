@@ -293,7 +293,7 @@
 			<repair-skill value="repair_skill"/>
 			<repaired-units>
 				<unit name="trojan_horse"/>
-				<unit name="barley_field"/>
+				<unit name="farm"/>
 				<unit name="barracks"/>
 				<unit name="blacksmith"/>
 				<unit name="tower"/>
