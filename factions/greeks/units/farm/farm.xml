@@ -2,6 +2,7 @@
 <unit>
 	<!-- *** parameters *** -->
 	<parameters>
+		<max-unit-count value="3"/>
 		<size value="4" />
 		<height value="2" />
 		<ai-build-size value="6"/>
