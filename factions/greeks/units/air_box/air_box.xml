@@ -7,7 +7,7 @@
 		<max-hp value="6000" regeneration="0"/>
 		<max-ep value="0" />
 		<armor value="0" />
-		<armor-type value="stone"/>
+		<armor-type value="metal"/>
 		<sight value="16" />
 		<time value="150" />
 		<multi-selection value="true"/>
@@ -23,12 +23,9 @@
 			<particle-file path="smoke_particles.xml"/>
 		</damage-particles>
 		<rotationAllowed value="true" />
-		<unit-requirements>
-			<unit name="palace"/>
-                        <unit name="temple"/>
-		</unit-requirements>
+		<unit-requirements/>
 		<upgrade-requirements>
-                        <upgrade name="pandora"/>
+			<upgrade name="advanced_buildings"/>
 		</upgrade-requirements>
 		<resource-requirements>
 			<resource name="gold" amount="200"/>
@@ -84,8 +81,8 @@
 				<sound-file path="$COMMONDATAPATH/sounds/tower_attack5.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/tower_attack6.wav"/>
 			</sound>
-			<attack-strength value="200"/>
-			<attack-var value="50"/>
+			<attack-strength value="450"/>
+			<attack-var value="115"/>
 			<attack-range value="15"/>
 			<attack-type value="energy"/>
 			<attack-start-time value="0.3"/>

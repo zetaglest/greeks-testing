@@ -39,6 +39,7 @@
 
 		<damage-multiplier attack="magic" armor="organic" value="1.25"/>
 		<damage-multiplier attack="magic" armor="wood" value="0.75"/>
+		<damage-multiplier attack="magic" armor="metal" value="1.50"/>
 		<damage-multiplier attack="magic" armor="stone" value="0.5"/>
 
 		<damage-multiplier attack="piercing" armor="organic" value="1.25"/>
@@ -57,7 +58,7 @@
 		<damage-multiplier attack="slashing" armor="wood" value="0.75"/>
 		<damage-multiplier attack="slashing" armor="stone" value="0.5"/>
 
-		<damage-multiplier attack="energy" armor="organic" value="1.25"/>
+		<damage-multiplier attack="energy" armor="organic" value="1.50"/>
 		<damage-multiplier attack="energy" armor="wood" value="0.75"/>
 		<damage-multiplier attack="energy" armor="stone" value="0.5"/>
 	</damage-multipliers>
