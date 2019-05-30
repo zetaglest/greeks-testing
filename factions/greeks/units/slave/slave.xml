@@ -336,7 +336,6 @@
 				<unit name="palace"/>
 				<unit name="temple"/>
 				<unit name="air_box"/>
-				<unit name="advanced_barracks"/>
 			</repaired-units>
 		</command>
 
