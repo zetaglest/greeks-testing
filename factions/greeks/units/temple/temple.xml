@@ -87,6 +87,9 @@
 			<anim-speed value="300"/>
 			<animation path="models/temple.g3d"/>
 			<sound enabled="false"/>
+			<particles value="true">
+				<particle-file path="../../particles/upgrade_particles.xml" />
+			</particles>
 		</skill>
 
 		<skill>

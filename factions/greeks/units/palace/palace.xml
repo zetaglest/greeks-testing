@@ -96,6 +96,9 @@
 			<animation path="models/palace.g3d" />
 			<particles value="false"/>
 			<sound enabled="false"/>
+			<particles value="true">
+				<particle-file path="../../particles/upgrade_particles.xml" />
+			</particles>
 		</skill>
 
 		<skill>
