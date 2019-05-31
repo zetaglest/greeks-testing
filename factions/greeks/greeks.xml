@@ -5,16 +5,15 @@
 		<resource name="gold" amount="500"/>
 		<resource name="wood" amount="500"/>
 		<resource name="stone" amount="500"/>
-		<resource name="food" amount="50"/>
+		<resource name="food" amount="15"/>
 	</starting-resources>
 	<starting-units>
 		<unit name="castle" amount="1"/>
-		<unit name="tower" amount="1"/>
 		<unit name="slave" amount="3"/>
 		<unit name="hoplite" amount="1"/>
 		<unit name="archer" amount="1"/>
 		<unit name="peltast" amount="1"/>
-		<unit name="chicken" amount="3"/>
+		<unit name="chicken" amount="10"/>
 	</starting-units>
 	<ai-behavior>
 		<worker-units>
@@ -35,6 +34,7 @@
 			<unit name="palace" minimum="1"/>
 		</building-units>
 		<upgrades>
+			<upgrade name="training_field"/>
 			<upgrade name="advanced_buildings"/>
 		</upgrades>
 	</ai-behavior>
