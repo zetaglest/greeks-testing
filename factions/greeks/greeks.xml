@@ -13,7 +13,7 @@
 		<unit name="hoplite" amount="1"/>
 		<unit name="archer" amount="1"/>
 		<unit name="peltast" amount="1"/>
-		<unit name="chicken" amount="10"/>
+		<unit name="chicken" amount="3"/>
 	</starting-units>
 	<ai-behavior>
 		<worker-units>
