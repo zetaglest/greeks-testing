@@ -169,7 +169,7 @@
 			<type value="morph"/>
 			<name value="build_ballista"/>
 			<ep-cost value="0"/>
-			<speed value="500"/>
+			<speed value="250"/>
 			<anim-speed value="200"/>
 			<animation path="../oxybeles/models/ballista_build.g3d"/>
 			<sound enabled="true" start-time="0">
@@ -186,7 +186,7 @@
 			<type value="morph"/>
 			<name value="build_onager"/>
 			<ep-cost value="0"/>
-			<speed value="350"/>
+			<speed value="250"/>
 			<anim-speed value="200"/>
 			<animation path="../oxybeles/models/ballista_build.g3d"/>
 			<sound enabled="true" start-time="0">
