@@ -17,7 +17,7 @@
 		<uniform-selection value="false"/>
 		<cellmap value="false"/>
 		<levels>
-			<level name="hercules___________________________________________________" kills="10"/>
+			<level name="legendary" kills="5"/>
 		</levels>
 		<fields>
 			<field value="land"/>
@@ -95,8 +95,8 @@
 			</sound>
 			<attack-strength value="400"/>
 			<attack-var value="100"/>
-			<attack-range value="1"/>
-			<attack-type value="energy"/>
+			<attack-range value="2"/>
+			<attack-type value="beat"/>
 			<attack-start-time value="0.8"/>
 			<attack-fields>
 				<field value="land"/>
