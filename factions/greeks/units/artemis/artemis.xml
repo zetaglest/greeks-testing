@@ -10,7 +10,7 @@
 		<max-unit-count value="1"/>
 		<armor value="15"/>
 		<armor-type value="leather"/>
-		<sight value="8"/>
+		<sight value="13"/>
 		<time value="50"/>
 		<multi-selection value="true"/>
 		<uniform-selection value="true"/>
