@@ -7,11 +7,11 @@
 	<parameters>
 		<size value="2"/>
 		<height value="3"/>
-		<max-hp value="1800" regeneration="1"/>
+		<max-hp value="1600" regeneration="1"/>
 		<max-ep value="0"/>
-		<armor value="20"/>
+		<armor value="5"/>
 		<armor-type value="metal"/>
-		<sight value="15"/>
+		<sight value="11"/>
 		<time value="180"/>
 		<multi-selection value="true"/>
 		<uniform-selection value="false"/>
@@ -27,7 +27,8 @@
 		<unit-requirements/>
 		<upgrade-requirements/>
 		<resource-requirements>
-			<resource name="stone" amount="80"/>
+			<resource name="stone" amount="40"/>
+			<resource name="wood" amount="50"/>
 			<resource name="gold" amount="150"/>
 			<resource name="food" amount="2"/>
 		</resource-requirements>
@@ -101,13 +102,12 @@
 				<sound-file path="$COMMONDATAPATH/sounds/ab_attack1.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/ab_attack2.wav"/>
 			</sound>
-			<attack-strength value="200"/>
+			<attack-strength value="190"/>
 			<attack-var value="75"/>
-			<attack-range value="15"/>
+			<attack-range value="9"/>
 			<attack-type value="piercing"/>
-			<attack-start-time value="0.9"/>
+			<attack-start-time value="0.5"/>
 			<attack-fields>
-				<field value="air"/>
 				<field value="land"/>
 			</attack-fields>
 			<projectile value="true">
