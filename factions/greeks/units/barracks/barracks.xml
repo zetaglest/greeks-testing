@@ -13,8 +13,8 @@
 		<multi-selection value="true"/>
 		<uniform-selection value="true"/>
 		<cellmap value="true">
+			<row value="1111"/>
 			<row value="1011"/>
-			<row value="0000"/>
 			<row value="1011"/>
 			<row value="1011"/>
 		</cellmap>
@@ -27,9 +27,7 @@
 		</properties>
 		<light enabled="false" />
 		<rotationAllowed value="true" />
-		<unit-requirements>
-			<unit name="castle" />
-		</unit-requirements>
+		<unit-requirements/>
 		<upgrade-requirements />
 		<resource-requirements>
 			<resource name="gold" amount="100" />
@@ -170,16 +168,6 @@
 		</command>
 
 		<command>
-			<type value="produce"/>
-			<name value="build_battering_ram"/>
-			<image path="../battering_ram/images/br.bmp"/>
-			<unit-requirements />
-			<upgrade-requirements />
-			<produce-skill value="produce_skill"/>
-			<produced-unit name="battering_ram"/>
-		</command>
-
-		<command>
 			<type value="upgrade"/>
 			<name value="create_training_field"/>
 			<image path="../../upgrades/training_field/images/training_field.bmp" />
@@ -187,19 +175,6 @@
 			<upgrade-requirements />
 			<upgrade-skill value="upgrade_skill"/>
 			<produced-upgrade name="training_field"/>
-		</command>
-
-
-		<command>
-			<type value="upgrade"/>
-			<name value="create_advanced_training_field"/>
-			<image path="../../upgrades/advanced_training/images/training_field.bmp" />
-			<unit-requirements />
-			<upgrade-requirements>
-				<upgrade name="training_field"/>
-			</upgrade-requirements>
-			<upgrade-skill value="upgrade_skill"/>
-			<produced-upgrade name="advanced_training"/>
 		</command>
 
 	</commands>

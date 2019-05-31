@@ -5,16 +5,18 @@
 		<size value="2"/>
 		<height value="7"/>
 		<ai-build-size value="4"/>
-		<max-hp value="7000" regeneration="0"/>
+		<max-hp value="5000" regeneration="0"/>
 		<max-ep value="0"/>
 		<armor value="20"/>
 		<armor-type value="wood"/>
-		<sight value="16"/>
-		<time value="140"/>
+		<sight value="17"/>
+		<time value="90"/>
 		<multi-selection value="true"/>
 		<uniform-selection value="true"/>
 		<cellmap value="false"/>
-		<levels/>
+		<levels>
+			<level name="monumental" kills="4"/>
+		</levels>
 		<fields>
 			<field value="land"/>
 		</fields>
@@ -80,12 +82,11 @@
 			</sound>
 			<attack-strength value="120"/>
 			<attack-var value="50"/>
-			<attack-range value="12"/>
+			<attack-range value="15"/>
 			<attack-type value="piercing"/>
 			<attack-start-time value="0.3"/>
 			<attack-fields>
 				<field value="land"/>
-				<field value="air"/>
 			</attack-fields>
 			<projectile value="true">
 				<particle value="true" path="particle_proj.xml"/>

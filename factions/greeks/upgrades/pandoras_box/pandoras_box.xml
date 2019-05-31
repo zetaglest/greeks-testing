@@ -10,13 +10,25 @@
 		<resource name="gold" amount="100"/>
 		<resource name="wood" amount="100"/>
 	</resource-requirements>
-	<effects/>
+	<effects>
+		<unit name="archer"/>
+		<unit name="hoplite"/>
+		<unit name="peltast"/>
+		<unit name="cavalry"/>
+		<unit name="battering_ram"/>
+		<unit name="chariot"/>
+		<unit name="onager"/>
+		<unit name="barracks"/>
+		<unit name="tower"/>
+		<unit name="dragon"/>
+		<unit name="atlas"/>
+	</effects>
 	<max-hp value="0"/>
 	<max-ep value="0"/>
-	<sight value="0"/>
-	<attack-strength value="0"/>
+	<sight value="2"/>
+	<attack-strength value="75"/>
 	<attack-range value="0"/>
-	<armor value="0"/>
+	<armor value="20"/>
 	<move-speed value="0"/>
 	<production-speed value="0"/>
 </upgrade>

@@ -7,33 +7,29 @@
 	<parameters>
 		<size value="2"/>
 		<height value="3"/>
-		<max-hp value="3000" regeneration="5"/>
+		<max-hp value="1800" regeneration="1"/>
 		<max-ep value="0"/>
 		<armor value="20"/>
-		<armor-type value="wood"/>
+		<armor-type value="metal"/>
 		<sight value="15"/>
 		<time value="180"/>
 		<multi-selection value="true"/>
 		<uniform-selection value="false"/>
 		<cellmap value="false"/>
 		<levels>
-			<level name="elite" kills="10"/>
+			<level name="elite" kills="6"/>
 		</levels>
 		<fields>
 			<field value="land"/>
 		</fields>
 		<properties/>
 		<light enabled="false"/>
-		<unit-requirements>
-			<unit name="palace"/>
-		</unit-requirements>
-		<upgrade-requirements>
-			<upgrade name="advanced_training"/>
-		</upgrade-requirements>
+		<unit-requirements/>
+		<upgrade-requirements/>
 		<resource-requirements>
-			<resource name="wood" amount="250"/>
-			<resource name="gold" amount="200"/>
-			<resource name="food" amount="1"/>
+			<resource name="stone" amount="80"/>
+			<resource name="gold" amount="150"/>
+			<resource name="food" amount="2"/>
 		</resource-requirements>
 		<resources-stored/>
 		<image path="images/air_ballista.bmp"/>

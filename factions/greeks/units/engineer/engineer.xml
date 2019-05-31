@@ -263,6 +263,28 @@
 		</command> -->
 
 		<command>
+			<type value="morph"/>
+			<name value="build_oxybeles"/>
+			<image path="../oxybeles/images/air_ballista.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<morph-skill value="build_ballista"/>
+			<morph-unit name= "oxybeles"/>
+			<discount value="40"/>
+		</command>
+
+		<command>
+			<type value="morph"/>
+			<name value="build_onager"/>
+			<image path="../onager/images/catapult.bmp"/>
+			<unit-requirements />
+			<upgrade-requirements />
+			<morph-skill value="build_onager"/>
+			<morph-unit name="onager"/>
+			<discount value="40"/>
+		</command>
+
+		<command>
 			<type value="repair"/>
 			<name value="repair"/>
 			<image path="images/technician_repair.bmp"/>
@@ -285,28 +307,6 @@
 				<unit name="chariot"/>
 				<unit name="onager"/>
 			</repaired-units>
-		</command>
-
-		<command>
-			<type value="morph"/>
-			<name value="build_oxybeles"/>
-			<image path="../oxybeles/images/air_ballista.bmp"/>
-			<unit-requirements/>
-			<upgrade-requirements/>
-			<morph-skill value="build_ballista"/>
-			<morph-unit name= "oxybeles"/>
-			<discount value="40"/>
-		</command>
-
-		<command>
-			<type value="morph"/>
-			<name value="build_onager"/>
-			<image path="../onager/images/catapult.bmp"/>
-			<unit-requirements />
-			<upgrade-requirements />
-			<morph-skill value="build_onager"/>
-			<morph-unit name="onager"/>
-			<discount value="40"/>
 		</command>
 
 	</commands>

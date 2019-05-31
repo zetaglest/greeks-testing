@@ -88,20 +88,6 @@
 		</skill>
 
 		<skill>
-			<type value="upgrade" />
-			<name value="upgrade_skill"/>
-			<ep-cost value="0" />
-			<speed value="300" />
-			<anim-speed value="150" />
-			<animation path="models/palace.g3d" />
-			<particles value="false"/>
-			<sound enabled="false"/>
-			<particles value="true">
-				<particle-file path="../../particles/upgrade_particles.xml" />
-			</particles>
-		</skill>
-
-		<skill>
 			<type value="die" />
 			<name value="die_skill"/>
 			<ep-cost value="0" />
@@ -122,10 +108,34 @@
 			<fade value="false"/>
 		</skill>
 
+		<skill>
+			<type value="upgrade" />
+			<name value="upgrade_skill"/>
+			<ep-cost value="0" />
+			<speed value="300" />
+			<anim-speed value="150" />
+			<animation path="models/palace.g3d" />
+			<particles value="false"/>
+			<sound enabled="false"/>
+			<particles value="true">
+				<particle-file path="../../particles/upgrade_particles.xml" />
+			</particles>
+		</skill>
+
 	</skills>
 
 	<!-- *** commands *** -->
 	<commands>
+
+		<command>
+			<type value="upgrade"/>
+			<name value="receive_royal_blessing"/>
+			<image path="../../upgrades/royal_blessing/images/training_field.bmp" />
+			<unit-requirements />
+			<upgrade-requirements/>
+			<upgrade-skill value="upgrade_skill"/>
+			<produced-upgrade name="royal_blessing"/>
+		</command>
 
 		<command>
 			<type value="produce"/>
@@ -139,22 +149,22 @@
 
 		<command>
 			<type value="produce"/>
+			<name value="build_battering_ram"/>
+			<image path="../battering_ram/images/br.bmp"/>
+			<unit-requirements />
+			<upgrade-requirements />
+			<produce-skill value="produce_skill"/>
+			<produced-unit name="battering_ram"/>
+		</command>
+
+		<command>
+			<type value="produce"/>
 			<name value="produce_alexander" />
 			<image path="../alexander/images/archmage.bmp" />
 			<unit-requirements />
 			<upgrade-requirements />
 			<produce-skill value="produce_skill"/>
 			<produced-unit name="alexander"/>
-		</command>
-
-		<command>
-			<type value="produce"/>
-			<name value="produce_artemis" />
-			<image path="../artemis/images/technician.bmp" />
-			<unit-requirements />
-			<upgrade-requirements />
-			<produce-skill value="produce_skill"/>
-			<produced-unit name="artemis"/>
 		</command>
 
 	</commands>

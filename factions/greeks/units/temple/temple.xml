@@ -128,27 +128,37 @@
 		</command>
 
 		<command>
-			<type value="upgrade"/>
-			<name value="research_pandora"/>
-			<image path="../../upgrades/pandora/images/shield1.bmp"/>
-		<unit-requirements>
-			<unit name="priest"/>
-		</unit-requirements>
+			<type value="produce"/>
+			<name value="produce_atlas"/>
+			<image path="../atlas/images/atlas.bmp"/>
+			<unit-requirements>
+				<unit name="priest"/>
+			</unit-requirements>
 			<upgrade-requirements/>
-			<upgrade-skill value="upgrade_skill"/>
-			<produced-upgrade name="pandora"/>
+			<produce-skill value="produce_skill"/>
+			<produced-unit name="atlas"/>
 		</command>
 
 		<command>
 			<type value="upgrade"/>
-			<name value="research_golden_arrow"/>
-			<image path="../../upgrades/golden_arrow/images/shield1.bmp"/>
+			<name value="open_pandoras_box"/>
+			<image path="../../upgrades/pandoras_box/images/shield1.bmp"/>
 			<unit-requirements>
 				<unit name="priest"/>
 			</unit-requirements>
 			<upgrade-requirements/>
 			<upgrade-skill value="upgrade_skill"/>
-			<produced-upgrade name="golden_arrow"/>
+			<produced-upgrade name="pandoras_box"/>
+		</command>
+
+		<command>
+			<type value="produce"/>
+			<name value="produce_artemis" />
+			<image path="../artemis/images/technician.bmp" />
+			<unit-requirements />
+			<upgrade-requirements />
+			<produce-skill value="produce_skill"/>
+			<produced-unit name="artemis"/>
 		</command>
 
 	</commands>

@@ -18,7 +18,9 @@
 			<row value="010"/>
 			<row value="000"/>
 		</cellmap>
-		<levels/>
+		<levels>
+			<level name="monumental" kills="4"/>
+		</levels>
 		<fields>
 			<field value="land" />
 		</fields>

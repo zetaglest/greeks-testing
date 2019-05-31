@@ -249,19 +249,6 @@ me about the fix
 			<fade value="false"/>
 		</skill>
 
-		<skill>
-			<type value="upgrade"/>
-			<name value="upgrade_skill"/>
-			<ep-cost value="0" />
-			<speed value="300" />
-			<anim-speed value="40" />
-			<animation path="models/pharao_attacking.g3d"/>
-			<sound enabled="false" />
-			<particles value="true">
-				<particle-file path="../../particles/upgrade_particles.xml" />
-			</particles>
-		</skill>
-
 	</skills>
 
 	<commands>
@@ -286,34 +273,12 @@ me about the fix
 
 		<command>
 			<type value="produce"/>
-			<name value="summon_atlas"/>
-			<image path="../atlas/images/atlas.bmp"/>
-			<unit-requirements />
-			<upgrade-requirements/>
-			<produce-skill value="produce_skill"/>
-			<produced-unit name="atlas"/>
-		</command>
-
-		<command>
-			<type value="produce"/>
-			<name value="produce_dragon"/>
+			<name value="summon_dragon"/>
 			<image path="../dragon/images/dragon.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements/>
 			<produce-skill value="produce_skill"/>
 			<produced-unit name="dragon"/>
-		</command>
-
-		<command>
-			<type value="upgrade"/>
-			<name value="speedup_priest_production"/>
-			<image path="../../upgrades/speedup_priest_production/images/stables.bmp" />
-		<unit-requirements>
-			<unit name="temple" />
-		</unit-requirements>
-			<upgrade-requirements />
-			<upgrade-skill value="upgrade_skill"/>
-			<produced-upgrade name="speedup_priest_production"/>
 		</command>
 
 		<command>
