@@ -67,6 +67,9 @@
 			<anim-speed value="100"/>
 			<animation path="models/temple.g3d"/>
 			<sound enabled="false"/>
+			<particles value="true">
+				<particle-file path="../../particles/glow_particles.xml"/>
+			</particles>
 		</skill>
 
 		<skill>
