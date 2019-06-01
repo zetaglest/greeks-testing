@@ -120,7 +120,11 @@
 					<sound-file path="/sounds/arrow_hit5.ogg"/>
 				</sound>
 			</projectile>
-			<splash value="false"/>
+			<splash value="true">
+				<radius value="0"/>
+				<damage-all value="false"/>
+				<particle value="true" path="../../particles/archer_hit_splash.xml"/>
+			</splash>
 		</skill>
 
 		<skill>

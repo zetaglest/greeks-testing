@@ -105,7 +105,11 @@
 			</attack-fields>
 			<attack-start-time value="0"/>
 			<projectile value="false"/>
-			<splash value="false"/>
+			<splash value="true">
+				<radius value="0"/>
+				<damage-all value="false"/>
+				<particle value="true" path="../../particles/archer_hit_splash.xml"/>
+			</splash>
 		</skill>
 
 		<skill>
