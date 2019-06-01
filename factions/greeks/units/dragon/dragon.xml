@@ -63,19 +63,9 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="250"/>
+			<speed value="280"/>
 			<anim-speed value="75"/>
 			<animation path="models/dragon_fly.g3d"/>
-			<sound enabled="false"/>
-		</skill>
-
-		<skill>
-			<type value="morph"/>
-			<name value="morph_skill"/>
-			<ep-cost value="0"/>
-			<speed value="500"/>
-			<anim-speed value="180"/>
-			<animation path="models/dragon_attack.g3d"/>
 			<sound enabled="false"/>
 		</skill>
 
