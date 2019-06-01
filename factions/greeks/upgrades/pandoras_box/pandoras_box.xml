@@ -11,6 +11,7 @@
 		<resource name="wood" amount="100"/>
 	</resource-requirements>
 	<effects>
+		<unit name="air_box"/>
 		<unit name="archer"/>
 		<unit name="hoplite"/>
 		<unit name="peltast"/>
