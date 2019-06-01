@@ -6,9 +6,9 @@
 		<height value="4"/>
 		<max-hp value="1500" regeneration="3"/>
 		<max-ep value="0"/>
-		<armor value="10"/>
+		<armor value="0"/>
 		<armor-type value="wood"/>
-		<sight value="16"/>
+		<sight value="13"/>
 		<time value="100"/>
 		<multi-selection value="true"/>
 		<uniform-selection value="false"/>
@@ -95,9 +95,9 @@
 			</sound>
 			<attack-strength value="220"/>
 			<attack-var value="110"/>
-			<attack-range value="12"/>
+			<attack-range value="10"/>
 			<attack-type value="impact"/>
-			<attack-start-time value="0.533"/>
+			<attack-start-time value="0.733"/>
 			<attack-fields>
 				<field value="land"/>
 				<field value="air"/>
