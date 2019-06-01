@@ -92,7 +92,7 @@
 			<type value="repair"/>
 			<name value="repair_skill"/>
 			<ep-cost value="0"/>
-			<speed value="180"/>
+			<speed value="80"/>
 			<anim-speed value="180"/>
 			<animation path="models/engineer_build.g3d"/>
 			<sound enabled="true" start-time="0">
