@@ -92,10 +92,10 @@
 			<type value="attack"/>
 			<name value="attack_skill"/>
 			<ep-cost value="0"/>
-			<speed value="50"/>
-			<anim-speed value="50"/>
+			<speed value="65"/>
+			<anim-speed value="65"/>
 			<animation path="models/archer_attack.g3d"/>
-			<sound enabled="true" start-time="0.5">
+			<sound enabled="true" start-time="0.2">
 				<sound-file path="/sounds/archer_attack1.ogg"/>
 				<sound-file path="/sounds/archer_attack2.ogg"/>
 				<sound-file path="/sounds/archer_attack3.ogg"/>
@@ -105,7 +105,7 @@
 			<attack-var value="50"/>
 			<attack-range value="10"/>
 			<attack-type value="piercing"/>
-			<attack-start-time value="0.5"/>
+			<attack-start-time value="0.2"/>
 			<attack-fields>
 				<field value="land"/>
 				<field value="air"/>
