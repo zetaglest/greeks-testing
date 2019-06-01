@@ -161,8 +161,8 @@
 			</sound>
 			<attack-strength value="210"/>
 			<attack-var value="30"/>
-			<attack-range value="12"/>
-			<attack-type value="energy"/>
+			<attack-range value="10"/>
+			<attack-type value="magic"/>
 			<attack-start-time value="0.71"/>
 			<attack-fields>
 				<field value="land"/>
