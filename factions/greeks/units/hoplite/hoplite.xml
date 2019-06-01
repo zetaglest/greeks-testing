@@ -128,7 +128,7 @@
 			<type value="move"/>
 			<name value="charge_skill"/>
 			<ep-cost value="0"/>
-			<speed value="170"/>
+			<speed value="240"/>
 			<anim-speed value="120"/>
 			<animation path="models/hoplite_walk.g3d"/>
 			<sound enabled="false"/>
