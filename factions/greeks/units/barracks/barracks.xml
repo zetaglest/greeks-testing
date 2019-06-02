@@ -1,7 +1,7 @@
 <?xml version="1.0" standalone="no" ?>
 <unit>
 	<parameters>
-		<size value="4" />
+		<size value="5" />
 		<height value="2" />
 		<ai-build-size value="7"/>
 		<max-hp value="6000" regeneration="0"/>
@@ -13,10 +13,11 @@
 		<multi-selection value="true"/>
 		<uniform-selection value="true"/>
 		<cellmap value="true">
-			<row value="1111"/>
-			<row value="1011"/>
-			<row value="1011"/>
-			<row value="1011"/>
+			<row value="11111"/>
+			<row value="11111"/>
+			<row value="10111"/>
+			<row value="10111"/>
+			<row value="10111"/>
 		</cellmap>
 		<levels/>
 		<fields>
