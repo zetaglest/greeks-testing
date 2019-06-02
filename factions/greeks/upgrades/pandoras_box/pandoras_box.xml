@@ -12,6 +12,7 @@
 	</resource-requirements>
 	<effects>
 		<unit name="air_box"/>
+		<unit name="artemis"/>
 		<unit name="archer"/>
 		<unit name="hoplite"/>
 		<unit name="peltast"/>

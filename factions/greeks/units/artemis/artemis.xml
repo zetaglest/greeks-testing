@@ -5,13 +5,12 @@
 	<parameters>
 		<size value="1"/>
 		<height value="2"/>
-		<max-hp value="3500" regeneration="1"/>
-		<max-ep value="1000" regeneration="10"/>
-		<max-unit-count value="1"/>
-		<armor value="15"/>
+		<max-hp value="1200" regeneration="1"/>
+		<max-ep value="0" regeneration="0"/>
+		<armor value="0"/>
 		<armor-type value="leather"/>
 		<sight value="13"/>
-		<time value="50"/>
+		<time value="125"/>
 		<multi-selection value="true"/>
 		<uniform-selection value="true"/>
 		<cellmap value="false"/>
@@ -26,9 +25,9 @@
 			<upgrade name="pandoras_box"/>
 		</upgrade-requirements>
 		<resource-requirements>
-			<resource name="gold" amount="9999"/>
-			<resource name="wood" amount="100"/>
-			<resource name="food" amount="9999"/>
+			<resource name="gold" amount="150"/>
+			<resource name="stone" amount="75"/>
+			<resource name="food" amount="2"/>
 		</resource-requirements>
 		<resources-stored/>
 		<image path="images/technician.bmp"/>
@@ -94,8 +93,8 @@
 			<type value="attack"/>
 			<name value="attack_skill"/>
 			<ep-cost value="0"/>
-			<speed value="50"/>
-			<anim-speed value="50"/>
+			<speed value="75"/>
+			<anim-speed value="75"/>
 			<animation path="models/artamis_attack.g3d"/>
 			<sound enabled="true" start-time="0.5">
 				<sound-file path="sounds/archer_attack1.wav"/>
@@ -104,8 +103,8 @@
 				<sound-file path="sounds/archer_attack4.wav"/>
 			</sound>
 			<attack-strength value="150"/>
-			<attack-var value="100"/>
-			<attack-range value="12"/>
+			<attack-var value="70"/>
+			<attack-range value="11"/>
 			<attack-type value="piercing"/>
 			<attack-start-time value="0.5"/>
 			<attack-fields>
@@ -122,102 +121,11 @@
 					<sound-file path="sounds/arrow_hit5.wav"/>
 				</sound>
 			</projectile>
-			<splash value="false"/>
-		</skill>
-
-		<skill>
-			<type value="attack"/>
-			<name value="death_skill"/>
-			<ep-cost value="60"/>
-			<speed value="80"/>
-			<anim-speed value="80"/>
-			<animation path="models/artamis_attack.g3d"/>
-			<sound enabled="true" start-time="0.5">
-				<sound-file path="sounds/archer_attack1.wav"/>
-				<sound-file path="sounds/archer_attack2.wav"/>
-				<sound-file path="sounds/archer_attack3.wav"/>
-				<sound-file path="sounds/archer_attack4.wav"/>
-			</sound>
-			<attack-strength value="300"/>
-			<attack-var value="100"/>
-			<attack-range value="12"/>
-			<attack-type value="piercing"/>
-			<attack-start-time value="0.5"/>
-			<attack-fields>
-				<field value="land"/>
-				<field value="air"/>
-			</attack-fields>
-                        <attack-boost>
-				<allow-multiple-boosts value="false" />
-				<radius value="10"/>
-                        	<target value="faction"> <!-- ally foe faction unit-types all -->
-					<!-- <unit-type value="catapult" /> -->
-                                </target>
-
-				<max-hp value="0"/>
-				<max-ep value="0"/>
-				<sight value="0"/>
-				<attack-strength value="50" value-percent-multiplier="true"/>
-				<attack-range value="0"/>
-				<armor value="0"/>
-				<move-speed value="20"/>
-				<production-speed value="0"/>
-
-				<particles value="true">
-					<originator-particle-file path="glow_particles.xml"/>
-					<affected-particle-file path="glow_particles.xml"/>
-				</particles>
-
-                        </attack-boost>
-			<projectile value="true">
-				<particle value="true" path="particle_proj2.xml"/>
-				<sound enabled="true">
-					<sound-file path="sounds/arrow_hit1.wav"/>
-					<sound-file path="sounds/arrow_hit2.wav"/>
-					<sound-file path="sounds/arrow_hit3.wav"/>
-					<sound-file path="sounds/arrow_hit4.wav"/>
-					<sound-file path="sounds/arrow_hit5.wav"/>
-				</sound>
-			</projectile>
-			<splash value="false"/>
-		</skill>
-
-		<skill>
-			<type value="attack"/>
-			<name value="golden_skill"/>
-			<ep-cost value="1000"/>
-			<speed value="40"/>
-			<anim-speed value="40"/>
-			<animation path="models/artamis_attack.g3d"/>
-			<sound enabled="true" start-time="0.5">
-				<sound-file path="sounds/archer_attack1.wav"/>
-				<sound-file path="sounds/archer_attack2.wav"/>
-				<sound-file path="sounds/archer_attack3.wav"/>
-				<sound-file path="sounds/archer_attack4.wav"/>
-			</sound>
-			<attack-strength value="5500"/>
-			<attack-var value="500"/>
-			<attack-range value="11"/>
-			<attack-type value="piercing"/>
-			<attack-start-time value="0.5"/>
-			<unit value="hoplite" amount="2" />
-			<attack-fields>
-				<field value="land"/>
-			</attack-fields>
-			<particles value="true">
-				<particle-file path="power_particles.xml"/>
-			</particles>
-			<projectile value="true">
-				<particle value="true" path="particle_proj3.xml"/>
-				<sound enabled="true">
-					<sound-file path="sounds/arrow_hit1.wav"/>
-					<sound-file path="sounds/arrow_hit2.wav"/>
-					<sound-file path="sounds/arrow_hit3.wav"/>
-					<sound-file path="sounds/arrow_hit4.wav"/>
-					<sound-file path="sounds/arrow_hit5.wav"/>
-				</sound>
-			</projectile>
-			<splash value="false"/>
+			<splash value="true">
+				<radius value="0"/>
+				<damage-all value="false"/>
+				<particle value="true" path="../../particles/archer_hit_splash.xml"/>
+			</splash>
 		</skill>
 
 		<skill>
@@ -249,7 +157,6 @@
 			<stop-skill value="stop_skill"/>
 		</command>
 
-
 		<command>
 			<type value="move"/>
 			<name value="move"/>
@@ -267,26 +174,6 @@
 			<upgrade-requirements/>
 			<move-skill value="move_skill"/>
 			<attack-skill value="attack_skill"/>
-		</command>
-
-		<command>
-			<type value="attack"/>
-			<name value="arrow_of_death"/>
-			<image path="images/death.bmp"/>
-			<unit-requirements/>
-			<upgrade-requirements/>
-			<move-skill value="move_skill"/>
-			<attack-skill value="death_skill"/>
-		</command>
-
-		<command>
-			<type value="attack"/>
-			<name value="golden_arrow"/>
-			<image path="images/gold.bmp"/>
-			<unit-requirements/>
-			<upgrade-requirements/>
-			<move-skill value="move_skill"/>
-			<attack-skill value="golden_skill"/>
 		</command>
 
 	</commands>

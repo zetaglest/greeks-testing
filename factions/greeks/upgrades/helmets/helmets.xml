@@ -13,6 +13,7 @@
 	</resource-requirements>
 	<effects>
 		<unit name="archer"/>
+		<unit name="artemis"/>
 		<unit name="dragon"/>
 		<unit name="hoplite"/>
 		<unit name="peltast"/>

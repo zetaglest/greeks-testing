@@ -13,6 +13,7 @@
 	<effects>
 		<unit name="air_box"/>
 		<unit name="archer"/>
+		<unit name="artemis"/>
 		<unit name="atlas"/>
 		<unit name="barracks"/>
 		<unit name="castle"/>
