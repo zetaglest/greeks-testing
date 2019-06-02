@@ -188,7 +188,9 @@
 			<type value="upgrade"/>
 			<name value="research_barley_bales"/>
 			<image path="../../upgrades/barley_bales/images/stables.bmp"/>
-			<unit-requirements/>
+			<unit-requirements>
+				<unit name="blacksmith"/>
+			</unit-requirements>
 			<upgrade-requirements/>
 			<upgrade-skill value="upgrade_skill"/>
 			<produced-upgrade name="barley_bales"/>
