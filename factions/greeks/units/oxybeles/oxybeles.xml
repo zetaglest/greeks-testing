@@ -104,7 +104,7 @@
 			</sound>
 			<attack-strength value="190"/>
 			<attack-var value="75"/>
-			<attack-range value="9"/>
+			<attack-range value="11"/>
 			<attack-type value="piercing"/>
 			<attack-start-time value="0.5"/>
 			<attack-fields>
