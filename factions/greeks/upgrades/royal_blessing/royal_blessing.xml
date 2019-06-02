@@ -12,6 +12,8 @@
 	</resource-requirements>
 	<effects>
 		<unit name="barracks"/>
+		<unit name="temple"/>
+		<unit name="palace"/>
 	</effects>
 	<max-hp value="0"/>
 	<max-ep value="0"/>
