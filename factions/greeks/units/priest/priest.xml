@@ -83,7 +83,7 @@
 				<armor value="0"/>
 				<production-speed value="0"/>
 			<particles value="true">
-					<affected-particle-file path="healing_particles.xml"/>
+					<affected-particle-file path="../../particles/healing_particles.xml"/>
 			</particles>
 			</attack-boost>
 			<particles value="true">
@@ -145,7 +145,7 @@
 				<armor value="0"/>
 				<production-speed value="0"/>
 			<particles value="true">
-					<affected-particle-file path="healing_particles.xml"/>
+					<affected-particle-file path="../../particles/healing_particles.xml"/>
 			</particles>
 			</attack-boost>
 			<particles value="true">
@@ -194,7 +194,7 @@ me about the fix
 			<anim-speed value="60"/>
 			<animation path="models/pharao_healing.g3d"/>
 			<particles value="true">
-				<particle-file path="healing_particles.xml"/>
+				<particle-file path="../../particles/healing_particles.xml"/>
 			</particles>
 			<sound enabled="true" start-time="0.5">
 				<sound-file path="$COMMONDATAPATH/sounds/shaman_heal1.wav"/>
@@ -219,7 +219,7 @@ me about the fix
 				<armor value="0"/>
 				<production-speed value="0"/>
 				<particles value="true">
-					<affected-particle-file path="healing_particles.xml"/>
+					<affected-particle-file path="../../particles/healing_particles.xml"/>
 				</particles>
 			</attack-boost>
 			<particles value="true">
