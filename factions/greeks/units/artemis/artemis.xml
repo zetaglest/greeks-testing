@@ -10,7 +10,7 @@
 		<armor value="0"/>
 		<armor-type value="leather"/>
 		<sight value="13"/>
-		<time value="125"/>
+		<time value="40"/>
 		<multi-selection value="true"/>
 		<uniform-selection value="false"/>
 		<cellmap value="false"/>
@@ -25,8 +25,7 @@
 			<upgrade name="pandoras_box"/>
 		</upgrade-requirements>
 		<resource-requirements>
-			<resource name="gold" amount="150"/>
-			<resource name="stone" amount="75"/>
+			<resource name="ambrosia" amount="10"/>
 			<resource name="food" amount="2"/>
 		</resource-requirements>
 		<resources-stored/>
