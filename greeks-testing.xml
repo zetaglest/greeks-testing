@@ -1,7 +1,7 @@
 <?xml version="1.0" standalone="no"?>
 
 <tech-tree>
-	<description value="elves tech tree"/>
+	<description value="greeks tech tree"/>
 
 	<attack-types>
 		<attack-type name="slashing"/>
