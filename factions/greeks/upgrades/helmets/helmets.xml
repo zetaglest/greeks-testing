@@ -12,7 +12,6 @@
 		<resource name="wood" amount="200"/>
 	</resource-requirements>
 	<effects>
-		<unit name="archer"/>
 		<unit name="hoplite"/>
 	</effects>
 	<max-hp value="325"/>
