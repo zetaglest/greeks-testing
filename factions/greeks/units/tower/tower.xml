@@ -26,9 +26,7 @@
 		</properties>
 		<light enabled="false"/>
 		<rotationAllowed value="false" />
-		<unit-requirements>
-			<unit name="blacksmith"/>
-		</unit-requirements>
+		<unit-requirements/>
 		<upgrade-requirements>
 			<upgrade name="advanced_buildings"/>
 		</upgrade-requirements>

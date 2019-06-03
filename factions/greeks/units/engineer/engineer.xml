@@ -249,8 +249,7 @@
 			<move-skill value="move_skill"/>
 			<build-skill value="build_skill"/>
 			<buildings>
-				<building name="temple"/>
-				<building name="palace"/>
+				<building name="tower"/>
 				<building name="air_box"/>
 				<building name="trojan_horse"/>
 			</buildings>

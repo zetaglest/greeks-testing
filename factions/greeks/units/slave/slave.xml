@@ -258,7 +258,8 @@
 				<building name="barracks"/>
 				<building name="blacksmith"/>
 				<building name="castle"/>
-				<building name="tower"/>
+				<building name="temple"/>
+				<building name="palace"/>
 			</buildings>
 			<start-sound enabled="false"/>
 			<built-sound enabled="true">
