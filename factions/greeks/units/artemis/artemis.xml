@@ -12,7 +12,7 @@
 		<sight value="13"/>
 		<time value="125"/>
 		<multi-selection value="true"/>
-		<uniform-selection value="true"/>
+		<uniform-selection value="false"/>
 		<cellmap value="false"/>
 		<levels/>
 		<fields>
