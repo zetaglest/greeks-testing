@@ -83,7 +83,7 @@
 					<unit-type name="psiloi" />
 					<unit-type name="slave" />
 				</target>
-				<max-hp value="0" regeneration="7"/>
+				<max-hp value="0" regeneration="3"/>
 				<max-ep value="0"/>
 				<sight value="0"/>
 				<attack-range value="0"/>
