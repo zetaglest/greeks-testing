@@ -68,6 +68,7 @@
 				<radius value="5"/>
 				<target value="faction">
 					<unit-type name="archer" />
+					<unit-type name="artemis" />
 					<unit-type name="chicken" />
 					<unit-type name="hoplite" />
 					<unit-type name="engineer" />
@@ -129,6 +130,7 @@
 				<radius value="5"/>
 				<target value="faction">
 					<unit-type name="archer" />
+					<unit-type name="artemis" />
 					<unit-type name="chicken" />
 					<unit-type name="hoplite" />
 					<unit-type name="engineer" />
@@ -202,6 +204,7 @@ me about the fix
 				<radius value="5"/>
 				<target value="ally">
 					<unit-type name="archer" />
+					<unit-type name="artemis" />
 					<unit-type name="chicken" />
 					<unit-type name="hoplite" />
 					<unit-type name="engineer" />
