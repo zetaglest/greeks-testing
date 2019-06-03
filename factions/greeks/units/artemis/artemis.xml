@@ -21,7 +21,9 @@
 		<properties/>
 		<light enabled="false"/>
 		<unit-requirements/>
-		<upgrade-requirements/>
+		<upgrade-requirements>
+			<upgrade name="pandoras_box"/>
+		</upgrade-requirements>
 		<resource-requirements>
 			<resource name="ambrosia" amount="6"/>
 			<resource name="food" amount="2"/>
