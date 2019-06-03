@@ -161,9 +161,7 @@
 			<type value="upgrade"/>
 			<name value="upgrade_shields" />
 			<image path="../../upgrades/shields/images/shield1.bmp" />
-			<unit-requirements>
-				<unit name="temple"/>
-			</unit-requirements>
+			<unit-requirements/>
 			<upgrade-requirements />
 			<upgrade-skill value="upgrade_skill"/>
 			<produced-upgrade name="shields"/>
@@ -173,9 +171,7 @@
 			<type value="upgrade"/>
 			<name value="upgrade_weapons" />
 			<image path="../../upgrades/weapons/images/piercing.bmp" />
-			<unit-requirements>
-				<unit name="temple"/>
-			</unit-requirements>
+			<unit-requirements/>
 			<upgrade-requirements />
 			<upgrade-skill value="upgrade_skill"/>
 			<produced-upgrade name="weapons"/>
@@ -185,9 +181,7 @@
 			<type value="upgrade"/>
 			<name value="upgrade_helmets" />
 			<image path="../../upgrades/helmets/images/h.bmp" />
-			<unit-requirements>
-				<unit name="temple"/>
-			</unit-requirements>
+			<unit-requirements/>
 			<upgrade-requirements />
 			<upgrade-skill value="upgrade_skill"/>
 			<produced-upgrade name="helmets"/>
