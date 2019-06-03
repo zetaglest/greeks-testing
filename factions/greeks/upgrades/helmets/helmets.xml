@@ -13,16 +13,7 @@
 	</resource-requirements>
 	<effects>
 		<unit name="archer"/>
-		<unit name="artemis"/>
-		<unit name="dragon"/>
 		<unit name="hoplite"/>
-		<unit name="peltast"/>
-		<unit name="psiloi"/>
-		<unit name="cavalry"/>
-		<unit name="battering_ram"/>
-		<unit name="chariot"/>
-		<unit name="priest"/>
-		<unit name="engineer"/>
 	</effects>
 	<max-hp value="325"/>
 	<max-ep value="0"/>

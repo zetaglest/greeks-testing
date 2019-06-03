@@ -12,18 +12,11 @@
 		<resource name="wood" amount="200"/>
 	</resource-requirements>
 	<effects>
-		<unit name="air_box"/>
 		<unit name="archer"/>
-		<unit name="artemis"/>
 		<unit name="hoplite"/>
 		<unit name="peltast"/>
 		<unit name="cavalry"/>
-		<unit name="battering_ram"/>
-		<unit name="chariot"/>
-		<unit name="onager"/>
-		<unit name="oxybeles"/>
 		<unit name="psiloi"/>
-		<unit name="tower"/>
 	</effects>
 	<max-hp value="0"/>
 	<max-ep value="0"/>
