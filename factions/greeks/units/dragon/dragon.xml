@@ -6,7 +6,7 @@
 		<size value="2"/>
 		<height value="1"/>
 		<max-hp value="1400" regeneration="3"/>
-		<max-ep value="1000" regeneration="15" start-percentage="100"/>
+		<max-ep value="1500" regeneration="15" start-percentage="100"/>
 		<armor value="20"/>
 		<armor-type value="organic"/>
 		<sight value="15"/>
@@ -15,8 +15,7 @@
 		<uniform-selection value="false"/>
 		<cellmap value="false"/>
 		<levels>
-			<level name="ancient" kills="4"/>
-			<level name="legendary" kills="10"/>
+			<level name="ancient" kills="6"/>
 		</levels>
 		<fields>
 			<field value="air"/>
@@ -73,8 +72,8 @@
 			<type value="attack"/>
 			<name value="attack_skill"/>
 			<ep-cost value="150"/>
-			<speed value="40"/>
-			<anim-speed value="40"/>
+			<speed value="60"/>
+			<anim-speed value="60"/>
 			<animation path="models/dragon_attack.g3d"/>
 			<sound enabled="true" start-time="0">
 				<sound-file path="sounds/dragon_attack1.ogg"/>
