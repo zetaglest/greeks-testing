@@ -257,9 +257,9 @@
 				<building name="farm"/>
 				<building name="barracks"/>
 				<building name="blacksmith"/>
-				<building name="castle"/>
 				<building name="temple"/>
 				<building name="palace"/>
+				<building name="castle"/>
 			</buildings>
 			<start-sound enabled="false"/>
 			<built-sound enabled="true">
