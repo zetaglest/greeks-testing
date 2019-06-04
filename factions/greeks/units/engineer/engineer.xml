@@ -93,7 +93,7 @@
 			<name value="repair_skill"/>
 			<ep-cost value="0"/>
 			<speed value="80"/>
-			<anim-speed value="180"/>
+			<anim-speed value="80"/>
 			<animation path="models/engineer_build.g3d"/>
 			<sound enabled="true" start-time="0">
 				<sound-file path="$COMMONDATAPATH/sounds/technician_build1.wav"/>
