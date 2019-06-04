@@ -2,6 +2,7 @@
 <unit>
 	<!-- *** parameters *** -->
 	<parameters>
+		<max-unit-count value="1"/>
 		<size value="3" />
 		<height value="2" />
 		<ai-build-size value="5"/>
@@ -10,15 +11,11 @@
 		<max-unit-count value="5"/>
 		<armor value="6" />
 		<armor-type value="wood"/>
-		<sight value="30" />
-		<time value="350" />
+		<sight value="22" />
+		<time value="200" />
 		<multi-selection value="true"/>
 		<uniform-selection value="true"/>
-		<cellmap value="true">
-			<row value="000"/>
-			<row value="010"/>
-			<row value="000"/>
-		</cellmap>
+		<cellmap value="false"/>
 		<levels/>
 		<fields>
 			<field value="land" />
@@ -123,7 +120,7 @@
 		<command>
 			<type value="move"/>
 			<name value="move"/>
-			<image path="images/castle.bmp"/>
+			<image path="../archer/images/tech_move.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements/>
 			<move-skill value="move_skill"/>
@@ -137,26 +134,6 @@
 			<upgrade-requirements />
 			<produce-skill value="produce_skill"/>
 			<produced-unit name="hoplite"/>
-		</command>
-
-		<command>
-			<type value="produce"/>
-			<name value="produce_psiloi" />
-			<image path="../psiloi/images/swordman.bmp" />
-			<unit-requirements />
-			<upgrade-requirements />
-			<produce-skill value="produce_skill"/>
-			<produced-unit name="psiloi"/>
-		</command>
-
-		<command>
-			<type value="produce"/>
-			<name value="produce_archer" />
-			<image path="../archer/images/archer.bmp" />
-			<unit-requirements />
-			<upgrade-requirements />
-			<produce-skill value="produce_skill"/>
-			<produced-unit name="archer"/>
 		</command>
 
 	</commands>
