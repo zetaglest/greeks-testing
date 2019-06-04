@@ -321,6 +321,11 @@
 				<unit name="palace"/>
 				<unit name="temple"/>
 				<unit name="air_box"/>
+				<unit name="oxybeles"/>
+				<unit name="battering_ram"/>
+				<unit name="chariot"/>
+				<unit name="onager"/>
+				<unit name="trojan_horse"/>
 			</repaired-units>
 		</command>
 
