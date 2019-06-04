@@ -291,15 +291,11 @@
 			<move-skill value="move_skill"/>
 			<repair-skill value="repair_skill"/>
 			<repaired-units>
-				<unit name="trojan_horse"/>
-				<unit name="farm"/>
-				<unit name="barracks"/>
-				<unit name="blacksmith"/>
-				<unit name="tower"/>
-				<unit name="castle"/>
-				<unit name="palace"/>
-				<unit name="temple"/>
 				<unit name="air_box"/>
+				<unit name="onager"/>
+				<unit name="oxybeles"/>
+				<unit name="trojan_horse"/>
+				<unit name="tower"/>
 			</repaired-units>
 		</command>
 
