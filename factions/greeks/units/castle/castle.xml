@@ -7,7 +7,7 @@
 		<ai-build-size value="6"/>
 		<max-hp value="9000" regeneration="0"/>
 		<max-ep value="0" />
-		<armor value="0" />
+		<armor value="25" />
 		<armor-type value="stone"/>
 		<sight value="15" />
 		<time value="300" />
