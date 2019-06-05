@@ -16,7 +16,6 @@
 		<unit name="peltast"/>
 		<unit name="cavalry"/>
 		<unit name="dragon"/>
-		<unit name="atlas"/>
 	</effects>
 	<max-hp value="0"/>
 	<max-ep value="0"/>

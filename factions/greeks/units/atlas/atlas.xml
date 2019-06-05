@@ -9,7 +9,7 @@
 		<height value="2"/>
 		<max-hp value="2000" regeneration="3"/>
 		<max-ep value="0"/>
-		<armor value="10"/>
+		<armor value="5"/>
 		<armor-type value="titan"/>
 		<sight value="10"/>
 		<time value="100"/>
@@ -17,7 +17,7 @@
 		<uniform-selection value="false"/>
 		<cellmap value="false"/>
 		<levels>
-			<level name="legendary" kills="5"/>
+			<level name="legendary" kills="10"/>
 		</levels>
 		<fields>
 			<field value="land"/>
