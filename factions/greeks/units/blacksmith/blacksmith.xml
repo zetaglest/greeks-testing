@@ -147,12 +147,12 @@
 
 		<command>
 			<type value="upgrade"/>
-			<name value="research_advanced_buildings"/>
-			<image path="../../upgrades/advanced_buildings/images/training_field.bmp"/>
+			<name value="research_advanced_architecture"/>
+			<image path="../../upgrades/advanced_architecture/images/training_field.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements/>
 			<upgrade-skill value="upgrade_skill"/>
-			<produced-upgrade name="advanced_buildings"/>
+			<produced-upgrade name="advanced_architecture"/>
 		</command>
 
 		<command>

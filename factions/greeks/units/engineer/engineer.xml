@@ -243,9 +243,7 @@
 			<name value="build_advanced"/>
 			<image path="../slave/images/worker_build_advanced.bmp"/>
 			<unit-requirements/>
-			<upgrade-requirements>
-				<upgrade name="advanced_buildings"/>
-			</upgrade-requirements>
+			<upgrade-requirements/>
 			<move-skill value="move_skill"/>
 			<build-skill value="build_skill"/>
 			<buildings>

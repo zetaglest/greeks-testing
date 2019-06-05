@@ -35,7 +35,7 @@
 		</building-units>
 		<upgrades>
 			<upgrade name="training_field"/>
-			<upgrade name="advanced_buildings"/>
+			<upgrade name="advanced_architecture"/>
 		</upgrades>
 	</ai-behavior>
 	<music value="true" path="music/music_greek.ogg"/>
