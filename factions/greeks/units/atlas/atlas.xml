@@ -102,10 +102,10 @@
 				<field value="land"/>
 			</attack-fields>
 			<projectile value="false"/>
-			<splash value="true">
+			<splash value="true" start-time=".1">
 				<radius value="1"/>
 				<damage-all value="false"/>
-				<particle value="false"/>
+				<particle value="true" path="particle_splash.xml"/>
 			</splash>
 		</skill>
 
