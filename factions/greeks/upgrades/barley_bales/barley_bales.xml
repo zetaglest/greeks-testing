@@ -3,7 +3,7 @@
 <upgrade>
 	<image path="images/stables.bmp"/>
 	<image-cancel path="../shields/images/tech_upgrade_cancel.bmp"/>
-	<time value="200"/>
+	<time value="250"/>
 	<unit-requirements/>
 	<upgrade-requirements/>
 	<resource-requirements>
