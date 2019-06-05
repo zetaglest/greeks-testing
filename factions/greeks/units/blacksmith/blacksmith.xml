@@ -149,9 +149,7 @@
 			<type value="upgrade"/>
 			<name value="research_advanced_buildings"/>
 			<image path="../../upgrades/advanced_buildings/images/training_field.bmp"/>
-			<unit-requirements>
-				<unit name="engineer"/>
-			</unit-requirements>
+			<unit-requirements/>
 			<upgrade-requirements/>
 			<upgrade-skill value="upgrade_skill"/>
 			<produced-upgrade name="advanced_buildings"/>
