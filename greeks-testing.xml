@@ -20,7 +20,6 @@
 		<armor-type name="wood"/>
 		<armor-type name="metal"/>
 		<armor-type name="stone"/>
-		<armor-type name="titan"/>
 	</armor-types>
 
 	<damage-multipliers>
@@ -29,17 +28,14 @@
 		<damage-multiplier attack="arrow" armor="wood" value="0.75"/>
 		<damage-multiplier attack="arrow" armor="metal" value="0.75"/>
 		<damage-multiplier attack="arrow" armor="stone" value="0.5"/>
-		<damage-multiplier attack="arrow" armor="titan" value="0.25"/>
 
 		<damage-multiplier attack="sword" armor="organic" value="1.25"/>
 		<damage-multiplier attack="sword" armor="wood" value="0.75"/>
 		<damage-multiplier attack="sword" armor="stone" value="0.5"/>
-		<damage-multiplier attack="sword" armor="titan" value="0.25"/>
 
 		<damage-multiplier attack="beat" armor="organic" value="1.25"/>
 		<damage-multiplier attack="beat" armor="wood" value="0.75"/>
 		<damage-multiplier attack="beat" armor="stone" value="0.5"/>
-		<damage-multiplier attack="beat" armor="titan" value="0.5"/>
 
 		<damage-multiplier attack="magic" armor="organic" value="1.25"/>
 		<damage-multiplier attack="magic" armor="wood" value="0.75"/>
@@ -51,23 +47,19 @@
 		<damage-multiplier attack="piercing" armor="wood" value="0.75"/>
 		<damage-multiplier attack="piercing" armor="metal" value="0.75"/>
 		<damage-multiplier attack="piercing" armor="stone" value="0.5"/>
-		<damage-multiplier attack="piercing" armor="titan" value="0.25"/>
 
 		<damage-multiplier attack="impact" armor="organic" value="0.75"/>
 		<damage-multiplier attack="impact" armor="leather" value="0.75"/>
 		<damage-multiplier attack="impact" armor="metal" value="1.5"/>
 		<damage-multiplier attack="impact" armor="wood" value="1.5"/>
 		<damage-multiplier attack="impact" armor="stone" value="1.5"/>
-		<damage-multiplier attack="impact" armor="titan" value="1.5"/>
 
 		<damage-multiplier attack="slashing" armor="organic" value="1.25"/>
 		<damage-multiplier attack="slashing" armor="wood" value="0.75"/>
 		<damage-multiplier attack="slashing" armor="stone" value="0.5"/>
-		<damage-multiplier attack="slashing" armor="titan" value="0.25"/>
 
 		<damage-multiplier attack="energy" armor="organic" value="1.50"/>
 		<damage-multiplier attack="energy" armor="wood" value="0.75"/>
 		<damage-multiplier attack="energy" armor="stone" value="0.5"/>
-		<damage-multiplier attack="energy" armor="titan" value="0.25"/>
 	</damage-multipliers>
 </tech-tree>
