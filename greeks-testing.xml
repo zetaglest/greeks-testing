@@ -20,6 +20,7 @@
 		<armor-type name="wood"/>
 		<armor-type name="metal"/>
 		<armor-type name="stone"/>
+		<armor-type name="crystal"/>
 	</armor-types>
 
 	<damage-multipliers>
@@ -41,6 +42,7 @@
 		<damage-multiplier attack="magic" armor="wood" value="0.75"/>
 		<damage-multiplier attack="magic" armor="metal" value="1.50"/>
 		<damage-multiplier attack="magic" armor="stone" value="0.5"/>
+		<damage-multiplier attack="magic" armor="crystal" value="0.5"/>
 
 		<damage-multiplier attack="piercing" armor="organic" value="1.25"/>
 		<damage-multiplier attack="piercing" armor="leather" value="1.25"/>
@@ -61,5 +63,6 @@
 		<damage-multiplier attack="energy" armor="organic" value="1.50"/>
 		<damage-multiplier attack="energy" armor="wood" value="0.75"/>
 		<damage-multiplier attack="energy" armor="stone" value="0.5"/>
+		<damage-multiplier attack="energy" armor="crystal" value="1.50"/>
 	</damage-multipliers>
 </tech-tree>
