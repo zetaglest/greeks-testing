@@ -77,7 +77,7 @@
 			<type value="attack"/>
 			<name value="attack_skill"/>
 			<ep-cost value="0"/>
-			<speed value="80"/>
+			<speed value="100"/>
 			<anim-speed value="80"/>
 			<animation path="models/box_idle_attack.g3d"/>
 			<sound enabled="true" start-time="0">
@@ -88,21 +88,21 @@
 				<sound-file path="$COMMONDATAPATH/sounds/tower_attack5.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/tower_attack6.wav"/>
 			</sound>
-			<attack-strength value="450"/>
-			<attack-var value="115"/>
+			<attack-strength value="200"/>
+			<attack-var value="75"/>
 			<attack-range value="15"/>
 			<attack-type value="energy"/>
-			<attack-start-time value="0.3"/>
+			<attack-start-time value="0.1"/>
 			<attack-fields>
 				<field value="air"/>
 			</attack-fields>
 			<projectile value="true">
-			<particle value="true" path="particle_proj.xml"/>
-			<sound enabled="true" start-time="0">
-				<sound-file path="$COMMONDATAPATH/sounds/tower_hit1.wav"/>
-				<sound-file path="$COMMONDATAPATH/sounds/tower_hit2.wav"/>
-				<sound-file path="$COMMONDATAPATH/sounds/tower_hit3.wav"/>
-			</sound>
+				<particle value="true" path="particle_proj.xml"/>
+				<sound enabled="true">
+					<sound-file path="$COMMONDATAPATH/sounds/tower_hit1.wav"/>
+					<sound-file path="$COMMONDATAPATH/sounds/tower_hit2.wav"/>
+					<sound-file path="$COMMONDATAPATH/sounds/tower_hit3.wav"/>
+				</sound>
 			</projectile>
 			<splash value="true">
 				<radius value="3"/>

@@ -9,7 +9,7 @@
 		<max-ep value="1500" regeneration="15" start-percentage="100"/>
 		<armor value="20"/>
 		<armor-type value="crystal"/>
-		<sight value="15"/>
+		<sight value="16"/>
 		<time value="150"/>
 		<multi-selection value="true"/>
 		<uniform-selection value="false"/>
