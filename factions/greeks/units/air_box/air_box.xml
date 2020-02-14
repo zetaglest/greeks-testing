@@ -10,7 +10,7 @@
 		<armor value="20" />
 		<armor-type value="crystal"/>
 		<sight value="16" />
-		<time value="150" />
+		<time value="40" />
 		<multi-selection value="true"/>
 		<uniform-selection value="true"/>
 		<cellmap value="true">
