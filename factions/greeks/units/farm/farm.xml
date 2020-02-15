@@ -185,6 +185,16 @@
 		</command>
 
 		<command>
+			<type value="produce"/>
+			<name value="resurrect_wild_sow" />
+			<image path="../wild_sow/images/wild_sow.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<produce-skill value="produce_skill"/>
+			<produced-unit name="wild_sow"/>
+		</command>
+
+		<command>
 			<type value="upgrade"/>
 			<name value="research_barley_bales"/>
 			<image path="../../upgrades/barley_bales/images/stables.bmp"/>
