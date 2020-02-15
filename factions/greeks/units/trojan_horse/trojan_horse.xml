@@ -8,7 +8,7 @@
 		<ai-build-size value="5"/>
 		<max-hp value="14000" regeneration="0"/>
 		<max-ep value="1200" regeneration="0" start-percentage="100"/>
-		<max-unit-count value="5"/>
+		<max-unit-count value="1"/>
 		<armor value="6" />
 		<armor-type value="wood"/>
 		<sight value="22" />
