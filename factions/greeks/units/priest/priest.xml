@@ -276,12 +276,14 @@ me about the fix
 
 		<command>
 			<type value="produce"/>
-			<name value="summon_dragon"/>
-			<image path="../dragon/images/dragon.bmp"/>
-			<unit-requirements/>
+			<name value="summon_atlas"/>
+			<image path="../atlas/images/atlas.bmp"/>
+			<unit-requirements>
+				<unit name="priest"/>
+			</unit-requirements>
 			<upgrade-requirements/>
 			<produce-skill value="produce_skill"/>
-			<produced-unit name="dragon"/>
+			<produced-unit name="atlas"/>
 		</command>
 
 		<command>
