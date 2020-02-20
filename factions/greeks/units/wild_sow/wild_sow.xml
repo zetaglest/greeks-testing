@@ -22,6 +22,7 @@
 		<properties/>
 		<light enabled="false"/>
 		<unit-requirements>
+			<unit name="temple"/>
 		</unit-requirements>
 		<upgrade-requirements/>
 		<resource-requirements>
