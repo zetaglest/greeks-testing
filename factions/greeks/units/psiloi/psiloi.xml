@@ -10,7 +10,7 @@
 		<max-hp value="700" regeneration="1"/>
 		<max-ep value="0"/>
 		<max-unit-count value="10"/>
-		<armor value="0"/>
+		<armor value="4"/>
 		<armor-type value="organic"/>
 		<sight value="10"/>
 		<time value="30"/>
@@ -90,8 +90,8 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="400"/>
-			<anim-speed value="120"/>
+			<speed value="220"/>
+			<anim-speed value="90"/>
 			<animation path="models/psiloi_walk.g3d"/>
 			<sound enabled="false"/>
 		</skill>
@@ -100,12 +100,11 @@
 			<type value="move"/>
 			<name value="charge_skill"/>
 			<ep-cost value="0"/>
-			<speed value="500"/>
-			<anim-speed value="150"/>
+			<speed value="220"/>
+			<anim-speed value="90"/>
 			<animation path="models/psiloi_walk.g3d"/>
 			<sound enabled="false"/>
 		</skill>
-
 
 		<skill>
 			<type value="attack"/>
@@ -119,9 +118,9 @@
 			</sound>
 			<attack-strength value="75"/>
 			<attack-var value="30"/>
-			<attack-range value="6"/>
+			<attack-range value="4"/>
 			<attack-type value="slashing"/>
-			<attack-start-time value="0.5"/>
+			<attack-start-time value="0"/>
 			<attack-fields>
 				<field value="land"/>
 				<field value="air"/>
@@ -133,17 +132,6 @@
 				</sound>
 			</projectile>
 			<splash value="false"/>
-		</skill>
-
-		<!-- *** skill 3 *** -->
-		<skill>
-			<type value="morph"/>
-			<name value="morph_skill"/>
-			<ep-cost value="0"/>
-			<speed value="500"/>
-			<anim-speed value="80"/>
-			<animation path="models/psiloi_idle.g3d"/>
-			<sound enabled="false"/>
 		</skill>
 
 		<!-- *** skill 4 *** -->
