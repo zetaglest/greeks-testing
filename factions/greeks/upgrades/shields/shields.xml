@@ -14,7 +14,6 @@
 		<unit name="cavalry"/>
 		<unit name="hoplite"/>
 		<unit name="peltast"/>
-		<unit name="psiloi"/>
 	</effects>
 	<max-hp value="0"/>
 	<max-ep value="0"/>

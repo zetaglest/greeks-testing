@@ -12,19 +12,14 @@
 		<unit name="slave" amount="3"/>
 		<unit name="hoplite" amount="1"/>
 		<unit name="archer" amount="1"/>
-		<unit name="peltast" amount="1"/>
+		<unit name="psiloi" amount="2"/>
 		<unit name="chicken" amount="3"/>
 	</starting-units>
 	<ai-behavior>
 		<worker-units>
 			<unit name="slave" minimum="10"/>
 		</worker-units>
-		<warrior-units>
-			<unit name="psiloi" minimum="8"/>
-			<unit name="hoplite" minimum="4"/>
-			<unit name="archer" minimum="3"/>
-			<unit name="slave" minimum="12"/>
-		</warrior-units>
+		<warrior-units/>
 		<resource-producer-units/>
 		<building-units>
 			<unit name="barracks" minimum="2"/>
