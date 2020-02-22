@@ -200,7 +200,7 @@
 			<type value="morph"/>
 			<name value="morph_skill"/>
 			<ep-cost value="0"/>
-			<speed value="500"/>
+			<speed value="300"/>
 			<anim-speed value="80"/>
 			<animation path="models/worker_learn.g3d"/>
 			<sound enabled="false"/>
@@ -329,18 +329,18 @@
 			</repaired-units>
 		</command>
 
-		<!--command>
+		<command>
 			<type value="morph"/>
-			<name value="promote_to_engineer"/>
+			<name value="train_engineer"/>
 			<image path="../engineer/images/technician.bmp"/>
-	    	        <unit-requirements>
-		        	<unit name="blacksmith" />
-	        	</unit-requirements>
-			<upgrade-requirements/>
+			<unit-requirements />
+			<upgrade-requirements>
+				<upgrade name="pandoras_box"/>
+			</upgrade-requirements>
 			<morph-skill value="morph_skill"/>
-			<morph-unit name= "engineer"/>
-			<discount value="0"/>
-		</command-->
+			<morph-unit name="engineer"/>
+			<discount value="35"/>
+		</command>
 
 	</commands>
 </unit>
