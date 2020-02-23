@@ -202,7 +202,7 @@
 			<ep-cost value="0"/>
 			<speed value="300"/>
 			<anim-speed value="80"/>
-			<animation path="models/worker_learn.g3d"/>
+			<animation path="../archer/models/archer_attack.g3d"/>
 			<sound enabled="false"/>
 		</skill>
 
@@ -331,15 +331,15 @@
 
 		<command>
 			<type value="morph"/>
-			<name value="train_engineer"/>
-			<image path="../engineer/images/technician.bmp"/>
+			<name value="train_archer"/>
+			<image path="../archer/images/archer.bmp"/>
 			<unit-requirements />
 			<upgrade-requirements>
 				<upgrade name="pandoras_box"/>
 			</upgrade-requirements>
 			<morph-skill value="morph_skill"/>
-			<morph-unit name="engineer"/>
-			<discount value="35"/>
+			<morph-unit name="archer"/>
+			<discount value="40"/>
 		</command>
 
 	</commands>
