@@ -14,7 +14,9 @@
 		<multi-selection value="true"/>
 		<uniform-selection value="false"/>
 		<cellmap value="false"/>
-		<levels/>
+		<levels>
+			<level name="legendary" kills="7"/>
+		</levels>
 		<fields>
 			<field value="land"/>
 		</fields>
