@@ -14,10 +14,10 @@
 		<uniform-selection value="true"/>
 		<cellmap value="true">
 			<row value="11111"/>
-			<row value="11111"/>
-			<row value="10111"/>
-			<row value="10111"/>
-			<row value="10111"/>
+			<row value="10001"/>
+			<row value="11011"/>
+			<row value="10001"/>
+			<row value="11011"/>
 		</cellmap>
 		<levels/>
 		<fields>
