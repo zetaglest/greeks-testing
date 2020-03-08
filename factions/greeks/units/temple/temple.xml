@@ -53,7 +53,7 @@
 			<ep-cost value="0"/>
 			<speed value="300"/>
 			<anim-speed value="300"/>
-			<animation path="models/temple_construct.g3d"/>
+			<animation path="models/temple_build.g3d"/>
 			<sound enabled="false"/>
 			<type value="be_built"/>
 		</skill>
@@ -64,7 +64,7 @@
 			<ep-cost value="0"/>
 			<speed value="300"/>
 			<anim-speed value="100"/>
-			<animation path="models/temple_construct.g3d"/>
+			<animation path="models/temple.g3d"/>
 			<sound enabled="false"/>
 			<attack-boost>
 				<allow-multiple-boosts value="false" />
