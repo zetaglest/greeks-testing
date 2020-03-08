@@ -10,4 +10,11 @@ Priest and chicken farm models created by [virtushda](https://github.com/virtush
 
 Trojan Horse model created by [Keith Sammut](https://github.com/keithsammut)
 
-License: CC-BY-SA
+Some models imported and adapted from the [0 A.D. project](https://play0ad.com/)
+
+* Temple
+
+
+# License
+CC-BY-SA
+http://creativecommons.org/licenses/by-sa/3.0/
