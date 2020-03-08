@@ -14,7 +14,7 @@
 		<unit name="hoplite" amount="1"/>
 		<unit name="archer" amount="1"/>
 		<unit name="psiloi" amount="2"/>
-		<unit name="temple" amount="2"/>
+		<unit name="temple" amount="1"/>
 	</starting-units>
 	<ai-behavior>
 		<worker-units>
