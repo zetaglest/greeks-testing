@@ -8,8 +8,8 @@
 		<max-ep value="0"/>
 		<armor value="30"/>
 		<armor-type value="leather"/>
-		<sight value="10"/>
-		<time value="120"/>
+		<sight value="17"/>
+		<time value="90"/>
 		<multi-selection value="true"/>
 		<uniform-selection value="false"/>
 		<cellmap value="false"/>
@@ -119,7 +119,7 @@
 			</sound>
 			<attack-strength value="220"/>
 			<attack-var value="50"/>
-			<attack-range value="1"/>
+			<attack-range value="2"/>
 			<attack-type value="piercing"/>
 			<attack-fields>
 				<field value="land"/>
