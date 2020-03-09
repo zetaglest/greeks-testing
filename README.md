@@ -12,8 +12,10 @@ Trojan Horse model created by [Keith Sammut](https://github.com/keithsammut)
 
 Some models imported and adapted from the [0 A.D. project](https://play0ad.com/)
 
-* Temple
-
+* Greeks
+  * Civic Center
+  * Barracks
+  * Temple
 
 # License
 CC-BY-SA

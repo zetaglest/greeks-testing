@@ -8,7 +8,7 @@
 		<resource name="food" amount="15"/>
 	</starting-resources>
 	<starting-units>
-		<unit name="castle" amount="1"/>
+		<unit name="civic_center" amount="1"/>
 		<unit name="chicken" amount="3"/>
 		<unit name="slave" amount="3"/>
 		<unit name="hoplite" amount="1"/>

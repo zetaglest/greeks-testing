@@ -259,7 +259,7 @@
 				<building name="blacksmith"/>
 				<building name="temple"/>
 				<building name="palace"/>
-				<building name="castle"/>
+				<building name="civic_center"/>
 			</buildings>
 			<start-sound enabled="false"/>
 			<built-sound enabled="true">
@@ -317,7 +317,7 @@
 				<unit name="barracks"/>
 				<unit name="blacksmith"/>
 				<unit name="tower"/>
-				<unit name="castle"/>
+				<unit name="civic_center"/>
 				<unit name="palace"/>
 				<unit name="temple"/>
 				<unit name="air_box"/>
