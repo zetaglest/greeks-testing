@@ -111,6 +111,29 @@
 			<anim-speed value="300"/>
 			<animation path="models/temple.g3d"/>
 			<sound enabled="false"/>
+			<attack-boost>
+				<allow-multiple-boosts value="false" />
+				<radius value="5"/>
+				<target value="faction">
+					<unit-type name="archer" />
+					<unit-type name="artemis" />
+					<unit-type name="chicken" />
+					<unit-type name="hoplite" />
+					<unit-type name="engineer" />
+					<unit-type name="peltast" />
+					<unit-type name="psiloi" />
+					<unit-type name="slave" />
+				</target>
+				<max-hp value="0" regeneration="3"/>
+				<max-ep value="0"/>
+				<sight value="0"/>
+				<attack-range value="0"/>
+				<armor value="0"/>
+				<production-speed value="0"/>
+				<particles value="true">
+					<affected-particle-file path="../../particles/healing_particles.xml"/>
+				</particles>
+			</attack-boost>
 			<particles value="true">
 				<particle-file path="../../particles/glow_particles.xml"/>
 			</particles>
