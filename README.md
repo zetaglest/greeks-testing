@@ -16,6 +16,7 @@ Some models imported and adapted from the [0 A.D. project](https://play0ad.com/)
   * Civic Center
   * Barracks
   * Temple
+  * Blacksmith
 
 # License
 CC-BY-SA
