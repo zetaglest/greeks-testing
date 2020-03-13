@@ -77,8 +77,8 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="220"/>
-			<anim-speed value="125"/>
+			<speed value="180"/>
+			<anim-speed value="90"/>
 			<animation path="models/bram_walk.g3d"/>
 			<!--animation path="models/battering_ram_walk.g3d"/-->
 			<sound enabled="true" start-time="0">
@@ -97,14 +97,14 @@
 			<name value="attack_skill"/>
 			<ep-cost value="0"/>
 			<speed value="60"/>
-			<anim-speed value="100"/>
+			<anim-speed value="60"/>
 			<animation path="models/bram_attack.g3d"/>
 			<!--animation path="models/battering_ram_attack.g3d"/-->
-			<sound enabled="true" start-time="0.3">
+			<sound enabled="true" start-time="0.0">
 				<sound-file path="/sounds/golem_attack1.ogg"/>
 			</sound>
-			<attack-strength value="400"/>
-			<attack-var value="50"/>
+			<attack-strength value="300"/>
+			<attack-var value="150"/>
 			<attack-range value="1"/>
 			<attack-type value="impact"/>
 			<attack-start-time value="0.5"/>
