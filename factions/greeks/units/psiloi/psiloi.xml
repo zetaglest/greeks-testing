@@ -9,9 +9,7 @@
 		<height value="2"/>
 		<max-hp value="700" regeneration="1"/>
 		<max-ep value="0"/>
-		<!--
 		<max-unit-count value="10"/>
-		-->
 		<armor value="4"/>
 		<armor-type value="organic"/>
 		<sight value="15"/>
