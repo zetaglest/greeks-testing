@@ -95,8 +95,8 @@
 			<type value="attack"/>
 			<name value="attack_skill"/>
 			<ep-cost value="0"/>
-			<speed value="75"/>
-			<anim-speed value="75"/>
+			<speed value="85"/>
+			<anim-speed value="85"/>
 			<animation path="models/artamis_attack.g3d"/>
 			<sound enabled="true" start-time="0.5">
 				<sound-file path="sounds/archer_attack1.wav"/>
