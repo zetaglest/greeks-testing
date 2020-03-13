@@ -11,9 +11,8 @@
 		<unit name="civic_center" amount="1"/>
 		<unit name="chicken" amount="3"/>
 		<unit name="slave" amount="3"/>
-		<unit name="hoplite" amount="1"/>
+		<unit name="hoplite" amount="4"/>
 		<unit name="archer" amount="1"/>
-		<unit name="psiloi" amount="2"/>
 	</starting-units>
 	<ai-behavior>
 		<worker-units>
