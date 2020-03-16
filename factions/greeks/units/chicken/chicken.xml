@@ -154,7 +154,7 @@
 		<command>
 			<type value="morph"/>
 			<name value="praise_demeter"/>
-			<image path="../large_chicken/images/chicken.bmp"/>
+			<image path="../temple/images/temple.png"/>
 			<unit-requirements>
 				<unit name="priest"/>
 			</unit-requirements>
