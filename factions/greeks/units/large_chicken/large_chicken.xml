@@ -6,13 +6,13 @@
 
 	<parameters>
 		<size value="1"/>
-		<height value="1"/>
-		<max-hp value="300" regeneration="1"/>
+		<height value="2"/>
+		<max-hp value="900" regeneration="1"/>
 		<max-ep value="0"/>
 		<armor value="0"/>
 		<armor-type value="organic"/>
-		<sight value="10"/>
-		<time value="20"/>
+		<sight value="15"/>
+		<time value="60"/>
 		<multi-selection value="true"/>
 		<uniform-selection value="true"/>
 		<cellmap value="false"/>
@@ -25,11 +25,11 @@
 		<unit-requirements/>
 		<upgrade-requirements/>
 		<resource-requirements>
-			<resource name="gold" amount="50"/>
-			<resource name="food" amount="-5"/>
+			<resource name="gold" amount="100"/>
+			<resource name="food" amount="-15"/>
 		</resource-requirements>
 		<resources-stored>
-			<resource name= "food" amount="5"/>
+			<resource name= "food" amount="15"/>
 		</resources-stored>
 		<image path="images/chicken.bmp"/>
 		<image-cancel path="../archer/images/tech_cancel.bmp"/>
@@ -75,7 +75,7 @@
 			<ep-cost value="0"/>
 			<speed value="1000"/>
 			<anim-speed value="8"/>
-			<animation path="models/chicken_standing.g3d"/>
+			<animation path="models/large_chicken_standing.g3d"/>
 			<sound enabled="true" start-time="0">
 				<sound-file path="$COMMONDATAPATH/sounds/chicken/chicken_select4.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/chicken/chicken_single1.wav"/>
@@ -98,9 +98,9 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="100"/>
-			<anim-speed value="150"/>
-			<animation path="models/chicken_walking.g3d"/>
+			<speed value="200"/>
+			<anim-speed value="300"/>
+			<animation path="models/large_chicken_walking.g3d"/>
 			<sound enabled="false"/>
 		</skill>
 
@@ -110,21 +110,11 @@
 			<ep-cost value="0"/>
 			<speed value="90"/>
 			<anim-speed value="40"/>
-			<animation path="models/chicken_dying.g3d"/>
+			<animation path="models/large_chicken_dying.g3d"/>
 			<sound enabled="true" start-time="0">
 				<sound-file path="$COMMONDATAPATH/sounds/chicken/chicken_die1.wav"/>
 			</sound>
 			<fade value="false"/>
-		</skill>
-
-		<skill>
-			<type value="morph"/>
-			<name value="morph_skill"/>
-			<ep-cost value="0"/>
-			<speed value="300"/>
-			<anim-speed value="120"/>
-			<animation path="models/chicken_walking.g3d"/>
-			<sound enabled="false"/>
 		</skill>
 
 	</skills>
@@ -149,19 +139,6 @@
 			<unit-requirements/>
 			<upgrade-requirements/>
 			<move-skill value="move_skill"/>
-		</command>
-
-		<command>
-			<type value="morph"/>
-			<name value="praise_demeter"/>
-			<image path="../large_chicken/images/chicken.bmp"/>
-			<unit-requirements>
-				<unit name="priest"/>
-			</unit-requirements>
-			<upgrade-requirements/>
-			<morph-skill value="morph_skill"/>
-			<morph-unit name="large_chicken"/>
-			<discount value="0"/>
 		</command>
 
 	</commands>
