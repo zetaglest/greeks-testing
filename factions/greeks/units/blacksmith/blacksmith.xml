@@ -116,7 +116,7 @@
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="300" />
-			<animation path="models/blacksmith_destruction.g3d" />
+			<animation path="models/pers_blacksmith_destruction.g3d" />
 			<particles value="true">
 				<particle-file path="smoke_particles_2.xml"/>
 				<particle-file path="glow_particles.xml"/>
