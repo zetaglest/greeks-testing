@@ -17,8 +17,8 @@
 			<row value="11111"/>
 			<row value="11111"/>
 			<row value="00000"/>
-			<row value="00100"/>
-			<row value="10001"/>
+			<row value="01110"/>
+			<row value="11111"/>
 		</cellmap>
 		<levels/>
 		<fields>
