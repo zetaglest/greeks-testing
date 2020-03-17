@@ -8,7 +8,7 @@
 		<max-ep value="0"/>
 		<armor value="5"/>
 		<armor-type value="metal"/>
-		<sight value="10"/>
+		<sight value="16"/>
 		<time value="80"/>
 		<multi-selection value="true"/>
 		<uniform-selection value="false"/>
