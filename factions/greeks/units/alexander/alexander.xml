@@ -6,11 +6,11 @@
 		<size value="1"/>
 		<height value="1"/>
 		<max-hp value="1600" regeneration="2"/>
-		<max-ep value="150" regeneration="1"/>
-		<armor value="5"/>
+		<max-ep value="0" regeneration="0"/>
+		<armor value="50"/>
 		<armor-type value="leather"/>
 		<sight value="18"/>
-		<time value="250"/>
+		<time value="150"/>
 		<multi-selection value="true"/>
 		<uniform-selection value="false"/>
 		<cellmap value="false"/>
@@ -27,8 +27,8 @@
 			<upgrade name="royal_blessing"/>
 		</upgrade-requirements>
 		<resource-requirements>
-			<resource name="gold" amount="400"/>
-			<resource name="wood" amount="500"/>
+			<resource name="gold" amount="250"/>
+			<resource name="wood" amount="300"/>
 			<resource name="food" amount="1"/>
 		</resource-requirements>
 		<resources-stored/>
@@ -80,9 +80,14 @@
 			<sound enabled="false"/>
 			<attack-boost>
 				<allow-multiple-boosts value="false" />
-				<radius value="6"/>
-				<target value="faction"/>
-				<max-hp value="0" regeneration="2"/>
+				<radius value="12"/>
+				<target value="faction">
+					<unit-type name="archer" />
+					<unit-type name="hoplite" />
+					<unit-type name="peltast" />
+					<unit-type name="psiloi" />
+				</target>
+				<max-hp value="0" regeneration="0"/>
 				<max-ep value="0"/>
 				<sight value="2"/>
 				<attack-strength value="40" value-percent-multiplier="false"/>
@@ -100,8 +105,8 @@
 					<shape value="conical">
 						<angle value="90"/>
 					</shape>
-					<radius value="6"/>
-					<min-radius value="5.9"/>
+					<radius value="12"/>
+					<min-radius value="11.9"/>
 					<direction x="0" y="0.1" z="0"/>
 					<offset x="0" y="0" z="0"/>
 				</particle-file>
@@ -118,9 +123,14 @@
 			<sound enabled="false"/>
 			<attack-boost>
 				<allow-multiple-boosts value="false" />
-				<radius value="6"/>
-				<target value="faction"/>
-				<max-hp value="0" regeneration="2"/>
+				<radius value="12"/>
+				<target value="faction">
+					<unit-type name="archer" />
+					<unit-type name="hoplite" />
+					<unit-type name="peltast" />
+					<unit-type name="psiloi" />
+				</target>
+				<max-hp value="0" regeneration="0"/>
 				<max-ep value="0"/>
 				<sight value="2"/>
 				<attack-strength value="40" value-percent-multiplier="false"/>
@@ -138,8 +148,8 @@
 					<shape value="conical">
 						<angle value="90"/>
 					</shape>
-					<radius value="6"/>
-					<min-radius value="5.9"/>
+					<radius value="12"/>
+					<min-radius value="11.9"/>
 					<direction x="0" y="0.1" z="0"/>
 					<offset x="0" y="0" z="0"/>
 				</particle-file>
@@ -149,9 +159,9 @@
 		<skill>
 			<type value="attack"/>
 			<name value="attack_skill"/>
-			<ep-cost value="2"/>
-			<speed value="32"/>
-			<anim-speed value="32"/>
+			<ep-cost value="0"/>
+			<speed value="40"/>
+			<anim-speed value="40"/>
 			<animation path="models/prince_attack_arrow.g3d"/>
 			<sound enabled="true" start-time="0.68">
 				<sound-file path="$COMMONDATAPATH/sounds/archer_attack1.wav"/>
@@ -161,9 +171,9 @@
 			</sound>
 			<attack-strength value="210"/>
 			<attack-var value="30"/>
-			<attack-range value="10"/>
+			<attack-range value="12"/>
 			<attack-type value="magic"/>
-			<attack-start-time value="0.71"/>
+			<attack-start-time value="0.31"/>
 			<attack-fields>
 				<field value="land"/>
 				<field value="air"/>
@@ -185,9 +195,14 @@
 			</splash>
 			<attack-boost>
 				<allow-multiple-boosts value="false" />
-				<radius value="6"/>
-				<target value="faction"/>
-				<max-hp value="0" regeneration="2"/>
+				<radius value="12"/>
+				<target value="faction">
+					<unit-type name="archer" />
+					<unit-type name="hoplite" />
+					<unit-type name="peltast" />
+					<unit-type name="psiloi" />
+				</target>
+				<max-hp value="0" regeneration="0"/>
 				<max-ep value="0"/>
 				<sight value="2"/>
 				<attack-strength value="40" value-percent-multiplier="false"/>
@@ -205,8 +220,8 @@
 					<shape value="conical">
 						<angle value="90"/>
 					</shape>
-					<radius value="6"/>
-					<min-radius value="5.9"/>
+					<radius value="12"/>
+					<min-radius value="11.9"/>
 					<direction x="0" y="0.1" z="0"/>
 					<offset x="0" y="0" z="0"/>
 				</particle-file>
