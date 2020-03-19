@@ -6,7 +6,7 @@
 		<height value="3"/>
 		<max-hp value="700" regeneration="1"/>
 		<max-ep value="0"/>
-		<armor value="20"/>
+		<armor value="10"/>
 		<armor-type value="leather"/>
 		<sight value="15"/>
 		<time value="60"/>
@@ -101,7 +101,7 @@
 				<sound-file path="/sounds/archer_attack3.ogg"/>
 				<sound-file path="/sounds/archer_attack4.ogg"/>
 			</sound>
-			<attack-strength value="95"/>
+			<attack-strength value="130"/>
 			<attack-var value="65"/>
 			<attack-range value="9"/>
 			<attack-type value="piercing"/>
