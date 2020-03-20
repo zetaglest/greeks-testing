@@ -65,7 +65,7 @@
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="300" />
-			<animation path="models/barracks_build.g3d" />
+			<animation path="models/barracks_construction.g3d" />
 			<sound enabled="false" />
 		</skill>
 
@@ -98,7 +98,7 @@
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="300" />
-			<animation path="models/barracks_destruction.g3d" />
+			<animation path="models/barracks_destroyed.g3d" />
 			<particles value="true">
 				<particle-file path="smoke_particles.xml"/>
 				<particle-file path="glow_particles.xml"/>
