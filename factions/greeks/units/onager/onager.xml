@@ -70,7 +70,7 @@
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
 			<speed value="150"/>
-			<anim-speed value="150"/>
+			<anim-speed value="97"/>
 			<animation path="models/ornager_walk.g3d"/>
 			<sound enabled="true" start-time="0.1">
 				<sound-file path="$COMMONDATAPATH/sounds/catapult_walk1.wav"/>
@@ -89,7 +89,7 @@
 			<speed value="50"/>
 			<anim-speed value="50"/>
 			<animation path="models/ornager_attack.g3d"/>
-			<sound enabled="true" start-time="0.333">
+			<sound enabled="true" start-time="0">
 				<sound-file path="$COMMONDATAPATH/sounds/catapult_attack1.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/catapult_attack2.wav"/>
 			</sound>
@@ -97,7 +97,7 @@
 			<attack-var value="110"/>
 			<attack-range value="14"/>
 			<attack-type value="impact"/>
-			<attack-start-time value="0.733"/>
+			<attack-start-time value="0"/>
 			<attack-fields>
 				<field value="land"/>
 			</attack-fields>
@@ -128,16 +128,6 @@
 				<sound-file path="$COMMONDATAPATH/sounds/catapult_die3.wav"/>
 			</sound>
 			<fade value="false"/>
-		</skill>
-
-		<skill>
-			<type value="stop"/>
-			<name value="stop_skill"/>
-			<ep-cost value="0"/>
-			<speed value="1000"/>
-			<anim-speed value="40"/>
-			<animation path="models/ornager_idle.g3d"/>
-			<sound enabled="false"/>
 		</skill>
 
 	</skills>
