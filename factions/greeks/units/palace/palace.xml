@@ -2,7 +2,7 @@
 <unit>
 	<!-- *** parameters *** -->
 	<parameters>
-		<size value="5" />
+		<size value="4" />
 		<height value="3" />
 		<ai-build-size value="7"/>
 		<max-hp value="6000" regeneration="0"/>
@@ -14,11 +14,10 @@
 		<multi-selection value="true"/>
 		<uniform-selection value="true"/>
 		<cellmap value="true">
-			<row value="11001"/>
-			<row value="00011"/>
-			<row value="00000"/>
-			<row value="10000"/>
-			<row value="11001"/>
+			<row value="1111"/>
+			<row value="1111"/>
+			<row value="1111"/>
+			<row value="1111"/>
 		</cellmap>
 		<levels/>
 		<fields>
