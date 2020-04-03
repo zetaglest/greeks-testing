@@ -17,6 +17,7 @@ Some models imported and adapted from the [0 A.D. project](https://play0ad.com/)
   * Barracks
   * Temple
   * Blacksmith
+  * Palace
 
 # License
 CC-BY-SA
