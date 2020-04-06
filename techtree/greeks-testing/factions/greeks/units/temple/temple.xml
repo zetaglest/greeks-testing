@@ -179,6 +179,16 @@
 	<commands>
 
 		<command>
+			<type value="upgrade"/>
+			<name value="open_pandoras_box"/>
+			<image path="../../upgrades/pandoras_box/images/shield1.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<upgrade-skill value="upgrade_skill"/>
+			<produced-upgrade name="pandoras_box"/>
+		</command>
+
+		<command>
 			<type value="produce"/>
 			<name value="produce_priest" />
 			<image path="../priest/images/priest.bmp" />
@@ -190,38 +200,22 @@
 
 		<command>
 			<type value="produce"/>
-			<name value="summon_dragon"/>
-			<image path="../dragon/images/dragon.bmp"/>
-			<unit-requirements/>
-			<upgrade-requirements/>
-			<produce-skill value="produce_skill"/>
-			<produced-unit name="dragon"/>
-		</command>
-
-		<command>
-			<type value="upgrade"/>
-			<name value="open_pandoras_box"/>
-			<image path="../../upgrades/pandoras_box/images/shield1.bmp"/>
-			<unit-requirements>
-				<unit name="priest"/>
-			</unit-requirements>
-			<upgrade-requirements>
-				<upgrade name="shields"/>
-				<upgrade name="weapons"/>
-				<upgrade name="helmets"/>
-			</upgrade-requirements>
-			<upgrade-skill value="upgrade_skill"/>
-			<produced-upgrade name="pandoras_box"/>
-		</command>
-
-		<command>
-			<type value="produce"/>
 			<name value="produce_artemis" />
 			<image path="../artemis/images/technician.bmp" />
 			<unit-requirements />
 			<upgrade-requirements />
 			<produce-skill value="produce_skill"/>
 			<produced-unit name="artemis"/>
+		</command>
+
+		<command>
+			<type value="produce"/>
+			<name value="summon_dragon"/>
+			<image path="../dragon/images/dragon.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<produce-skill value="produce_skill"/>
+			<produced-unit name="dragon"/>
 		</command>
 
 	</commands>

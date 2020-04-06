@@ -4,7 +4,9 @@
 	<image path="images/training_field.bmp"/>
 	<image-cancel path="../shields/images/tech_upgrade_cancel.bmp"/>
 	<time value="250"/>
-	<unit-requirements/>
+	<unit-requirements>
+		<unit name="priest"/>
+	</unit-requirements>
 	<upgrade-requirements/>
 	<resource-requirements>
 		<resource name="gold" amount="200"/>

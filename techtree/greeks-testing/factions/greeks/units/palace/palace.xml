@@ -137,16 +137,6 @@
 
 		<command>
 			<type value="produce"/>
-			<name value="build_chariot"/>
-			<image path="../chariot/images/battle_machine.bmp"/>
-			<unit-requirements />
-			<upgrade-requirements />
-			<produce-skill value="produce_skill"/>
-			<produced-unit name="chariot"/>
-		</command>
-
-		<command>
-			<type value="produce"/>
 			<name value="build_battering_ram"/>
 			<image path="../battering_ram/images/br.bmp"/>
 			<unit-requirements />
@@ -163,6 +153,16 @@
 			<upgrade-requirements />
 			<produce-skill value="produce_skill"/>
 			<produced-unit name="alexander"/>
+		</command>
+
+		<command>
+			<type value="produce"/>
+			<name value="build_chariot"/>
+			<image path="../chariot/images/battle_machine.bmp"/>
+			<unit-requirements />
+			<upgrade-requirements />
+			<produce-skill value="produce_skill"/>
+			<produced-unit name="chariot"/>
 		</command>
 
 	</commands>

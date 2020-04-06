@@ -27,9 +27,7 @@
 		<unit-requirements>
 			<unit name="blacksmith"/>
 		</unit-requirements>
-		<upgrade-requirements>
-			<upgrade name="royal_blessing"/>
-		</upgrade-requirements>
+		<upgrade-requirements/>
 		<resource-requirements>
 			<resource name="wood" amount="100"/>
 			<resource name="gold" amount="200"/>
