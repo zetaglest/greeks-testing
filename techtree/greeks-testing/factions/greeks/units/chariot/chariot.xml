@@ -3,9 +3,9 @@
 <unit>
 
 	<parameters>
-		<size value="3"/>
+		<size value="2"/>
 		<height value="2"/>
-		<max-hp value="2500" regeneration="1"/>
+		<max-hp value="2500" regeneration="3"/>
 		<max-ep value="0"/>
 		<armor value="15"/>
 		<armor-type value="wood"/>
@@ -13,11 +13,7 @@
 		<time value="140"/>
 		<multi-selection value="true"/>
 		<uniform-selection value="false"/>
-		<cellmap value="true">
-			<row value="010"/>
-			<row value="010"/>
-			<row value="010"/>
-		</cellmap>
+		<cellmap value="false"/>
 		<levels>
 			<level name="elite" kills="10"/>
 		</levels>
