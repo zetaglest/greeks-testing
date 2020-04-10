@@ -8,7 +8,7 @@
 		<max-hp value="6000" regeneration="0"/>
 		<max-ep value="0" />
 		<armor value="20" />
-		<armor-type value="crystal"/>
+		<armor-type value="stone"/>
 		<sight value="16" />
 		<time value="40" />
 		<multi-selection value="true"/>
@@ -88,7 +88,7 @@
 				<sound-file path="$COMMONDATAPATH/sounds/tower_attack5.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/tower_attack6.wav"/>
 			</sound>
-			<attack-strength value="200"/>
+			<attack-strength value="150"/>
 			<attack-var value="75"/>
 			<attack-range value="15"/>
 			<attack-type value="energy"/>
