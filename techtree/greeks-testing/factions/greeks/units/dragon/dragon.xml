@@ -2,7 +2,6 @@
 
 <unit>
 	<parameters>
-		<max-unit-count value="8"/>
 		<size value="2"/>
 		<height value="1"/>
 		<max-hp value="1400" regeneration="3"/>
