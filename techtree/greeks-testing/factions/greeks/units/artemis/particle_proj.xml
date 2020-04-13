@@ -13,9 +13,9 @@
     	<emission-rate value="1" />
     	<energy-max value="20" />
     	<energy-var value="0" />
-	
+
 	<trajectory type="parabolic">
-		<speed value="20"/>
-		<scale value="1.5"/>
+		<speed value="30"/>
+		<scale value="1"/>
 	</trajectory>
 </projectile-particle-system>
