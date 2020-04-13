@@ -121,7 +121,7 @@
 			<type value="morph"/>
 			<name value="morph_skill"/>
 			<ep-cost value="0"/>
-			<speed value="300"/>
+			<speed value="150"/>
 			<anim-speed value="120"/>
 			<animation path="models/chicken_walking.g3d"/>
 			<sound enabled="false"/>
